@@ -1,0 +1,7 @@
+-Does not provide constant time access unlike arrays.
+-Will traverse across k elements to find the kth element.
+-Should consider if the removed node Should be reallocated?
+-In an interview be sure to clarify if they mean a sll or a dll
+
+Then why use ll?
+-It gives the benefit of adding the elements at the beginning and the end of the list at constant time***
