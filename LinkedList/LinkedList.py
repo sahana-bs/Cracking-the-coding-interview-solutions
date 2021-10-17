@@ -49,13 +49,13 @@ class LinkedList:
 
 
 
-sll=LinkedList()
-sll.appendToTail(Node(10))
-sll.appendToTail(Node(20))
-sll.appendToTail(Node(30))
-sll.print_ll()
-sll.remove_element(1)   #remove from the end
-sll.print_ll()
-#remove from the head
-sll.remove_element(0)   #remove from the end
-sll.print_ll()
+# sll=LinkedList()
+# sll.appendToTail(Node(10))
+# sll.appendToTail(Node(20))
+# sll.appendToTail(Node(30))
+# sll.print_ll()
+# sll.remove_element(1)   #remove from the end
+# sll.print_ll()
+# #remove from the head
+# sll.remove_element(0)   #remove from the end
+# sll.print_ll()

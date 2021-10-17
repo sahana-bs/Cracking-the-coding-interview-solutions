@@ -3,5 +3,8 @@
 -Should consider if the removed node Should be reallocated?
 -In an interview be sure to clarify if they mean a sll or a dll
 
+
+-Remember while using ll(single/double), pointers are recursion are the two most important concepts by which we can solve nay problem
 Then why use ll?
 -It gives the benefit of adding the elements at the beginning and the end of the list at constant time***
+-After finishing recursion, visit ll, they are closely related.
