@@ -47,6 +47,16 @@ class LinkedList:
             print("The deleted element is ",tmp.value)
             prev.next=None
 
+    def merge_ll(self,ll):
+        node=self.head
+        while node.next is not None:
+            node=node.next
+        node_2=ll.head
+        while node_2 is not None:
+            self.appendToTail(Node(node_2.value))
+            node_2=node_2.next
+
+
 
 
 # sll=LinkedList()

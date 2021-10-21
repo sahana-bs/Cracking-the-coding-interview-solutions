@@ -13,4 +13,4 @@ def getsum(num):
     else:
         return (num[0]+getsum(num[1:]))   #this is where sum is computer and the function is recursively called
 
-print(getsum(list_num))
+#print(getsum(list_num))
