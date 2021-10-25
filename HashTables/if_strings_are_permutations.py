@@ -35,6 +35,13 @@ class Check_permutation():
                 return False
         return True
 
+'''
+python one-liner:
+
+from collections import Counter
+return True if Counter(string_a) == Counter(string_b) else return False
+'''
+
 s1="abc"
 s2="dcab"
 obj=Check_permutation(s1,s2)

@@ -10,6 +10,8 @@ This basically tells into which bucket the linked list goes (key:value pair)
 
 next is the insert function:
 to insert the key:value pair into the hash table
+
+Look into the Collections class in python for easy hash table implementations
 '''
 class HashTable:
     def __init__(self):
