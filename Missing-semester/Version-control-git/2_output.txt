@@ -1,0 +1,3643 @@
+* commit 0c9c02433ac45b70c0c6e35f0086d6829ace23bc (HEAD -> master, origin/master, origin/HEAD)
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat Oct 16 07:12:53 2021 -0400
+| 
+|     Fix broken links
+| 
+* commit 731a005fd1a0e1fd75339d9df5f805923409a44f
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sun Aug 29 11:41:24 2021 -0400
+| 
+|     Fix broken link
+| 
+* commit 839adce634a474b9b5c1b889eaaf8a81c1bc6340
+| Author: sheshen <58324089+aorazalin@users.noreply.github.com>
+| Date:   Fri Aug 20 11:12:13 2021 +0600
+| 
+|     Add a github tutorial on how to contribute (#162)
+|   
+*   commit 2d1a5585586ab177dc49ea6595ead5360ea4fdb1
+|\  Merge: 602282f 157dd68
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Aug 10 08:52:21 2021 -0400
+| | 
+| |     Merge branch 'kumatheworld/fix-numbering'
+| | 
+| * commit 157dd68ac83272bed49b19554dece65acb8d4c93
+|/  Author: kumatheworld <kumatheworld1105@yahoo.co.jp>
+|   Date:   Tue Aug 10 17:35:49 2021 +0900
+|   
+|       Fix list numbering
+|   
+*   commit 602282f87f3f645d429ac13f93eac6e47e971c28
+|\  Merge: 4dfc254 154aa87
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Fri Jul 30 20:56:51 2021 -0400
+| | 
+| |     Merge branch 'LemurP/master'
+| | 
+| * commit 154aa8757f57ffe9236434d2e16492b61193429c
+|/  Author: Peter Norstein <peter.norstein@gmail.com>
+|   Date:   Fri Jul 30 19:10:03 2021 +0200
+|   
+|       Add link to Git alias section in exercise
+|       
+|       There is no explanation for how to add aliases to the git config
+|       given in the course, so having a link to gits documentation might
+|       help guide students.
+|       
+|       This commit is done as a part of [exercise 7][1].
+|       
+|       [1]: https://missing.csail.mit.edu/2020/version-control/#exercises
+| 
+* commit 4dfc2549b9db9895727abf57aad7b71c21a7e22b
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jul 27 08:32:21 2021 -0400
+| 
+|     Bump dependencies
+| 
+* commit 8010724516adc968765e8efd14991f262f0d0423
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jul 27 08:29:08 2021 -0400
+| 
+|     Separate build and links status
+|   
+*   commit 9c84071a3dde59eb986344445facca4743f6171a
+|\  Merge: 7623daf b63aa80
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Jul 27 08:23:19 2021 -0400
+| | 
+| |     Merge branch 'nullmight/fix-key-type'
+| | 
+| * commit b63aa808ac104082eb26cdc06ee2b81e96493658
+|/  Author: nullmight <saiabcxyz9@gmail.com>
+|   Date:   Mon Jul 26 20:46:44 2021 +0530
+|   
+|       Fix key type in tutorial
+|       
+|       The tutorial linked in Asymmetric cryptography problem 2 uses ED25519 keys.
+|   
+*   commit 7623daf79f8111f5d72aeeea85808bc2a51772f0
+|\  Merge: 7ec9677 c741a74
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sat Jul 17 14:46:30 2021 -0400
+| | 
+| |     Merge branch 'FabienRoger/add-plural'
+| | 
+| * commit c741a74888ff6a4d8ff045f0ddf0def9d59e0ccf
+|/  Author: Fabien Roger <efab.roger@gmail.com>
+|   Date:   Sat Jul 17 15:52:52 2021 +0200
+|   
+|       Add plural to parent variable
+| 
+* commit 7ec9677aad205bba74ec155674e5597117df8d4c
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat Jul 17 06:47:00 2021 -0400
+| 
+|     Update broken links
+| 
+* commit e6ab30ef1a75e630eb13b764c994441c1fa14217
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat Jun 26 06:13:36 2021 -0400
+| 
+|     Use Vimium description from the GitHub repo
+|   
+*   commit 34c22107be6493ff35eae8344da0f92336a662f6
+|\  Merge: 47824a1 0fe7898
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sat Jun 26 06:14:12 2021 -0400
+| | 
+| |     Merge branch 'deeperlearner/patch-1'
+| | 
+| * commit 0fe789813e1b256fef7465d839ef0da28ccdd4ac
+| | Author: PeiYing Liu <b04202035@g.ntu.edu.tw>
+| | Date:   Sat Jun 26 14:27:41 2021 +0800
+| | 
+| |     Update qa.md
+| | 
+| * commit 2fa05473e6b55be467bbda3c8711790f3bd862b5
+|/  Author: PeiYing Liu <b04202035@g.ntu.edu.tw>
+|   Date:   Sat Jun 26 14:24:19 2021 +0800
+|   
+|       Add a browser plugin that I found it is useful.
+|       
+|       Since in the QA video, you both mentioned that using less mouse and more keyboard makes it more efficient.
+|       Using browser to debug and finding answer is common in programming.
+|       So I think this is a recommended plugin in this part.
+| 
+* commit 47824a1f6b97988759817b59530196d94ee94049
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Jun 23 06:35:40 2021 -0400
+| 
+|     Point broken link to archive.org version
+| 
+* commit 68c41215ebb9f85fde85808d6ca2e036c4013895
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri May 21 08:05:17 2021 -0400
+| 
+|     Tweak wording
+|   
+*   commit 24ab363f812f770b39510250a93324411f804c16
+|\  Merge: 84a858b d39f432
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Fri May 21 07:58:47 2021 -0400
+| | 
+| |     Merge branch 'mnahinkhan/patch-1'
+| | 
+| * commit d39f43237692525f19f1ec0f496887b62c6090aa
+| | Author: Nahin Khan <mnk1@andrew.cmu.edu>
+| | Date:   Wed May 19 16:10:08 2021 +0300
+| | 
+| |     Clarify how cat functions
+| |     
+| |     A beginner to shell may be confused by how or why `cat < hello.txt` and
+| |     `cat hello.txt` yield the same output, especially in the context of
+| |     understanding rewiring of input / output streams.
+| | 
+* | commit 84a858bf108a05c2e6b3ad65d3ca9123f4dff38d
+|/  Author: wxq <Anilople@outlook.com>
+|   Date:   Wed May 19 21:21:01 2021 -0500
+|   
+|       docs: delete backquote in bash script (#146)
+| 
+* commit cd513409932558fa9e75d36a963109b82ccb586a
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sun May 16 11:45:48 2021 -0400
+| 
+|     Ignore another flaky URL
+|     
+|     This one consistently gives a 403 for some reason...
+|   
+*   commit 5355b738f14f8e4585a2f380536cab320a43750c
+|\  Merge: 5e047f5 f423e18
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sun May 16 11:45:18 2021 -0400
+| | 
+| |     Merge branch 'kartikeytewari/master'
+| | 
+| * commit f423e182de8d2f8ab87949bc5cf86fb45c0b9876
+|/  Author: Kartikey Tewari <kartikeya30@gmail.com>
+|   Date:   Sun May 16 19:54:11 2021 +0530
+|   
+|       change _2019/security.md
+|       
+|       - There was a typo on "technical persona" that is corrected.
+|       - Added link to medium profile of @thegrugq
+|   
+*   commit 5e047f5a25cc508cf7a637ad25476d1358f12c81
+|\  Merge: 37f9662 abe50b3
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sat May 15 07:36:56 2021 -0400
+| | 
+| |     Merge branch 'oliver/patch-1'
+| | 
+| * commit abe50b3317d47414032e01840ad73330250e2ed6
+|/  Author: Oliver Gerlich <oliver.gerlich@gmx.de>
+|   Date:   Sat May 15 09:57:35 2021 +0200
+|   
+|       add missing close parenthesis
+|       
+|       Fix xkcd.com/859/
+|   
+*   commit 37f966296940be46a55cce7d94094a5dd680efb0
+|\  Merge: 448e173 1ab4a89
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Wed May 12 09:19:25 2021 -0400
+| | 
+| |     Merge pull request #141 from blentz100/course-overview
+| | 
+| * commit 1ab4a89584d9e040166defa4336c05ac82353e09
+|/  Author: Brendan Lentz <Brendan.Lentz@gmail.com>
+|   Date:   Mon May 10 21:22:28 2021 -0700
+|   
+|       changed fancyful to fanciful
+| 
+* commit 448e173d8655ccb8fc8dc8a9931ed379172117f2
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat May 8 07:39:58 2021 -0400
+| 
+|     Ignore another site that is flaky in CI
+|   
+*   commit 499b94c43290414ffee70dc2029d008227cf39ff
+|\  Merge: c0c7843 a0963cd
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Thu May 6 09:42:07 2021 -0400
+| | 
+| |     Merge branch 'rareloto/update-commandline-rephrase'
+| | 
+| * commit a0963cdaabe4425c9ecf8b05343ae268b227b378
+|/  Author: Ramzel Renz Loto <lotoramzelrenz@gmail.com>
+|   Date:   Wed May 5 16:40:33 2021 +0800
+|   
+|       Minor rephrasing on Job control Exercise 2
+| 
+* commit c0c78435629f4ecfaaaa1bb854b19bfaaa9f3b48
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sun May 2 15:42:07 2021 -0400
+| 
+|     Update link
+|     
+|     This patch also makes a flaky URL be ignored by CI.
+|   
+*   commit 91fb22c0582f1b84e2ab10a6534ccdca0e1d483b
+|\  Merge: bd5d105 61c1e2a
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Apr 20 10:15:15 2021 -0400
+| | 
+| |     Merge branch 'letian-jiang/improve-version-control'
+| | 
+| * commit 61c1e2a8d2cca57d8c61bc4800707884c9b23caf
+|/  Author: Letian Jiang <letian.jiang@outlook.com>
+|   Date:   Tue Apr 20 16:19:40 2021 +0800
+|   
+|       add two punctuation marks
+|   
+*   commit bd5d1057140a82fc9b1f7890b15fb94729c52c77
+|\  Merge: b3920a2 3b19969
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Apr 13 11:11:11 2021 -0400
+| | 
+| |     Merge branch 'waynezhangw/tinyFix'
+| | 
+| * commit 3b19969d7e0df4ca84c2031b6bdc6b4c619b5a70
+|/  Author: 张闻远 <11119676@MBP9676.local>
+|   Date:   Tue Apr 13 23:04:00 2021 +0800
+|   
+|       add two period mark at Exercises 2 of version-control
+| 
+* commit b3920a273687a3f29f0f3cf67f5c927219b45207
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Thu Apr 1 06:23:09 2021 -0400
+| 
+|     Add link to explanation of BSD vs GNU coreutils
+|     
+|     Thanks to @duysmile for pointing out this difference in
+|     <https://github.com/missing-semester/missing-semester/pull/132>.
+| 
+* commit e14d2d32068c4e7e358f130aa0c291001fb5daf1
+| Author: Daniel Schreck <daniel.s.schreck@gmail.com>
+| Date:   Sat Mar 27 14:11:16 2021 -0400
+| 
+|     fixed a couple of typos (#130)
+|   
+*   commit 2a80a1ddcb06ad72bac0d6f218b42c3973bf7bd5
+|\  Merge: 91f747e 61493ff
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Mon Mar 15 04:50:57 2021 -0400
+| | 
+| |     Merge branch 'GCrispino/patch-1'
+| | 
+| * commit 61493ff8c464556db26efae0b78b08d631820540
+|/  Author: Gabriel Crispino <gabriel.crispino@hotmail.com>
+|   Date:   Sun Mar 14 22:33:53 2021 -0300
+|   
+|       Fix sentence in last command line exercise
+|   
+*   commit 91f747ed2209de939fc2200eaa4f5c96c6fe61bd
+|\  Merge: 979376f 6a48623
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Mon Mar 1 07:26:42 2021 -0500
+| | 
+| |     Merge branch 'sburris0/patch-1'
+| | 
+| * commit 6a486236f0c0044dc81aa9b7f14a4ed9d895bdb5
+|/  Author: Spencer Burris <sburris@posteo.net>
+|   Date:   Sat Feb 27 18:15:27 2021 -0800
+|   
+|       Add link to big list of vim-like software
+|       
+|       This has been a useful resource to me.
+| 
+* commit 979376f1bbf9148e727f16f5908b2a3fd340a92e
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat Feb 20 08:46:15 2021 -0500
+| 
+|     Restore Mark Janssen's cipherlist/ssldecoder
+|     
+|     See
+|     <https://raymii.org/s/blog/Cancellation_notice_for_cipherlist_ssldecoder_and_certificatemonitor.html>
+|     and
+|     <http://web.archive.org/web/20201020071305/https://sig-io.nl/posts/ssl-services/>.
+|     
+|     Thanks to @paulhchoi for pointing out that cipherlist.eu is the new
+|     alternative to cipherli.st in
+|     <https://github.com/hacker-tools/hacker-tools.github.io/pull/21>.
+| 
+* commit 6c54f9ee05e6fc6bfc8773089c4752281dfd8ec9
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat Feb 20 05:40:34 2021 -0500
+| 
+|     Update link
+| 
+* commit e8a87815f7ca48685df40bde2332a9bce70ac31e
+| Author: Henrikh Kantuni <henrikh.kantuni@gmail.com>
+| Date:   Thu Feb 11 08:30:38 2021 +0400
+| 
+|     Add visual mode key bindings (#122)
+|   
+*   commit c4085d1e54edc0c95e33a82a1e93022817e6b01e
+|\  Merge: 08954ad 7743827
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sat Feb 6 07:00:09 2021 -0500
+| | 
+| |     Merge branch 'soramichi/fix_metaprogramming'
+| | 
+| * commit 774382732a55480fc7c586e28550e765225acd13
+|/  Author: Soramichi Akiyama <akiyama@m.soramichi.jp>
+|   Date:   Sat Feb 6 13:55:39 2021 +0900
+|   
+|       fix foo.dat to data.dat
+|   
+*   commit 08954adb64fb0c28be36748070eb451e5589c6c6
+|\  Merge: e42fef2 c8c4ca4
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sat Jan 30 08:02:27 2021 -0500
+| | 
+| |     Merge branch 'matsui528/add_japanese_translation'
+| | 
+| * commit c8c4ca435cc4853f36d891c7b82def851935f754
+|/  Author: Yusuke Matsui <matsui528@gmail.com>
+|   Date:   Fri Jan 29 22:04:02 2021 +0900
+|   
+|       Added the link to Japanese translation
+|   
+*   commit e42fef27ae219600e9437bf9e5d8c781ef427986
+|\  Merge: b728af7 00366e1
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Thu Jan 21 12:17:18 2021 -0500
+| | 
+| |     Merge branch 'm-naumann/patch-2'
+| | 
+| * commit 00366e1b68909d6d8385bd2f14417e5ef885aa5d
+|/  Author: Maximilian Naumann <max.wiss@naumail.de>
+|   Date:   Thu Jan 21 14:38:57 2021 +0100
+|   
+|       Update qa.md: Add url to firefox screenshots
+|   
+*   commit b728af78351baef271e6e78392c9c6ee2a3a1d74
+|\  Merge: b74d88b 7909cc5
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Jan 19 09:07:31 2021 -0500
+| | 
+| |     Merge branch 'm-naumann/patch-1'
+| | 
+| * commit 7909cc5335221b8637fa5b411be89fe01d679d29
+|/  Author: Maximilian Naumann <maximilian.naumann@kit.edu>
+|   Date:   Tue Jan 19 14:02:27 2021 +0100
+|   
+|       Update debugging-profiling.md: minor reordering
+| 
+* commit b74d88b88d1ab16caab6fd84a17b0315aaa4b3cb
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sun Jan 10 06:40:28 2021 -0500
+| 
+|     Add link to Russian translation
+|   
+*   commit 77355877aa64868173c3cf87c7b0d773803f0dc4
+|\  Merge: 58959df a6b0e39
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Thu Dec 31 17:22:45 2020 -0500
+| | 
+| |     Merge branch 'WWRS/WWRS-lineprofiler-pyutils'
+| | 
+| * commit a6b0e39caeae18cd2e8b9fb2739adbd6a3337075
+|/  Author: WWRS <playnow254@gmail.com>
+|   Date:   Thu Dec 31 11:13:12 2020 -0800
+|   
+|       Update line_profiler link
+|       
+|       The official line_profiler repo changed ownership from @rkern to
+|       @pyutils. This updates the links in _2020/debugging-profiling.md to
+|       the @pyutils repo.
+| 
+* commit 58959dfdc15bae5754fde2a48bd031a697550596
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Dec 28 11:40:02 2020 -0500
+| 
+|     Make homepage schedule show year
+| 
+* commit 9834f92af6ce49b254da9271fde7575b04a44fb1
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Dec 28 11:35:55 2020 -0500
+| 
+|     Update dependencies
+| 
+* commit 7580d27fa397dac60216ab807df6ef59f66f11ff
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat Dec 26 10:41:46 2020 -0500
+| 
+|     Remove rate limit and add GitHub token
+| 
+* commit 79d143ff650d59a2d69961b2c68d697096c0e8f4
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat Dec 26 09:42:23 2020 -0500
+| 
+|     Switch to proof-html action
+|   
+*   commit ec18441fcd70765589c00c7614fd748f4f4491db
+|\  Merge: 958e0a4 8ac569b
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Dec 22 17:26:51 2020 -0500
+| | 
+| |     Merge branch 'mattrohr/fix-shell-notes'
+| | 
+| * commit 8ac569b42925a5a5dd390bb79a81971a5009b87a
+|/  Author: Matt Rohr <67395122+mattrohr@users.noreply.github.com>
+|   Date:   Tue Dec 22 15:21:51 2020 -0600
+|   
+|       Clarify default shell history behavior
+| 
+* commit 958e0a4b3a0fccc96980114b4d106f9ed4df08ed
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Dec 18 16:18:16 2020 -0500
+| 
+|     Disable CI
+|     
+|     Checking 500+ external links is a little bit too fragile; we get lots of
+|     ephemeral failures, so it's really noisy. This patch disables CI for
+|     this repository -- we should just run it manually once in a while.
+| 
+* commit f6c4244bc471bdf9f53b7d0abcbf550dbe310078
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Dec 18 16:08:20 2020 -0500
+| 
+|     Switch to GitHub Actions
+| 
+* commit 9dc244be91237fe82d2d41b31b271b13b63bda2d
+| Author: Meng Weng Wong <mengwong@legalese.com>
+| Date:   Tue Dec 8 12:42:41 2020 +0800
+| 
+|     Add instructions to install GraphViz as a prereq (#108)
+|     
+|     Needed in debugging-profiling.md as a dependency of pycallgraph.
+|   
+*   commit c0cddda25341f055736b1fcce77a6afa0de5d17d
+|\  Merge: 3011acd 9839276
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Nov 17 19:14:56 2020 -0500
+| | 
+| |     Merge branch 'kljensen/patch-1'
+| | 
+| * commit 98392761823dc967937ab45887246ae5f50068cb
+| | Author: Kyle L. Jensen <kljensen@gmail.com>
+| | Date:   Tue Nov 17 17:50:26 2020 +0000
+| | 
+| |     Add pass and 1password as example password managers
+| |     
+| |     Obviously there are many other password managers. I added these because they are solid, representative choices.
+| |   
+* |   commit 3011acd44744d7d8ce200979eb475b10849b2818
+|\ \  Merge: 92c7e20 fbdee8b
+| |/  Author: Anish Athalye <me@anishathalye.com>
+|/|   Date:   Tue Nov 17 15:59:41 2020 -0500
+| |   
+| |       Merge branch 'puneetlath/fix-git-merge-diagram'
+| | 
+| * commit fbdee8b9ed3280541ea37d0d2ac370817a888dd1
+|/  Author: Puneet Lath <puneet@expensify.com>
+|   Date:   Tue Nov 17 15:48:02 2020 -0500
+|   
+|       fix background style on merging branches diagram
+|   
+*   commit 92c7e201aa251e24e447d0b7337ced4652d5e38a
+|\  Merge: c9ded80 ec4db15
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Fri Oct 30 04:23:12 2020 -0400
+| | 
+| |     Merge branch 'abatishchev/patch-1' into master
+| | 
+| * commit ec4db1569f574cfb27f26c741f9c9b71c5ce7afe
+|/  Author: Alexander Batishchev <abatishchev@gmail.com>
+|   Date:   Thu Oct 29 19:09:37 2020 -0700
+|   
+|       Update potpourri.md
+|       
+|       Added Azure to the list of popular Cloud providers
+| 
+* commit c9ded804a755ffd6cf8cc294b875bea958d7a5f3
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Thu Oct 29 07:48:31 2020 -0400
+| 
+|     Update youtube-dl URL
+| 
+* commit fe1304912e0353939f0d19eab4265fbb4e3ebbb3
+| Author: Zach Heller <zacheller@users.noreply.github.com>
+| Date:   Sun Oct 25 12:11:08 2020 -0700
+| 
+|     Update data-wrangling.md -- clarify wording (#101)
+|     
+|     I initially re-read the "sum of the difference between the two columns"
+|     a few times. Subtracting each row individually across the columns and
+|     then summing is equivalent to summing each column and then subtracting,
+|     so I figured changing the wording could be useful for others. Let me
+|     know if I am misunderstanding the exercise provided.
+|   
+*   commit 99a969d9e84da32fa854a72c1afe8ffc8188103e
+|\  Merge: d25671d a7ec38f
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Thu Oct 22 20:15:34 2020 -0400
+| | 
+| |     Merge branch 'zacheller/patch-1' into master
+| | 
+| * commit a7ec38f61f574bed6d6de72f0808211d9ec35f02
+|/  Author: Zach Heller <zacheller@users.noreply.github.com>
+|   Date:   Thu Oct 22 15:26:54 2020 -0700
+|   
+|       Update data-wrangling.md
+|       
+|       Switch a period to a comma.
+|   
+*   commit d25671d01cb27e1ae8b9afabed08c5481d7abced
+|\  Merge: c51602d cc5da83
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Wed Oct 7 08:49:09 2020 -0400
+| | 
+| |     Merge branch 'holdmygithub/master' into master
+| | 
+| * commit cc5da83ba6417f1185cac32d286b9d6595806e6b
+|/  Author: Ashwin K Raghu <65014691+holdmygithub@users.noreply.github.com>
+|   Date:   Wed Oct 7 12:29:45 2020 +0530
+|   
+|       fixed a small typo at the end of this file
+|       
+|       Changed : (Advanced) The command `curl ipinfo.io` performs a HTTP request an fetches
+|       to
+|       (Advanced) The command `curl ipinfo.io` performs a HTTP request and fetches
+|   
+*   commit c51602daece8d8d3b0916c220df1bd47a14c1b60
+|\  Merge: 8a27115 b7de27c
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Fri Oct 2 06:52:33 2020 -0400
+| | 
+| |     Merge branch 'DAngelo-S/master' into master
+| | 
+| * commit b7de27cce8326908ccb8948c3c12d256d1fbc3f8
+|/  Author: Débora D'Angelo <debora.d.r.a@usp.br>
+|   Date:   Fri Oct 2 01:14:18 2020 -0300
+|   
+|       add the Portuguese version
+|       
+|       The translation repo can be found at https://github.com/missing-semester-pt/missing-semester-pt.github.io
+|   
+*   commit 8a27115924b34c510362a6b2e4fdfba33d59d4b0
+|\  Merge: 90dfe09 c3ae0e4
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sun Sep 20 10:57:27 2020 -0400
+| | 
+| |     Merge branch 'exercise-solutions' into master
+| | 
+| * commit c3ae0e4a0e8d6823472cee693460332ac4b08da2
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sat Sep 19 19:58:23 2020 -0400
+| | 
+| |     Add note on (lack of) solutions to exercises
+| | 
+* | commit 90dfe097098886a7737749734341a45283798a5c
+|/  Author: Anish Athalye <me@anishathalye.com>
+|   Date:   Sat Sep 19 20:08:15 2020 -0400
+|   
+|       Add note on BSD vs GNU coreutils
+|       
+|       Thanks to @ashutoshpathak200 for pointing this out in
+|       https://github.com/missing-semester/missing-semester/issues/93.
+| 
+* commit 03b4daec3b3528216185f5bb529671014eb381fe
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Sep 4 10:48:24 2020 -0400
+| 
+|     Update htop link
+| 
+* commit 721717e746a01847984b6f2249b5d4f4f7531556
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Aug 28 08:46:39 2020 -0400
+| 
+|     Update dependencies
+| 
+* commit 0cf3d529c0192079ecb514f28349162175dd1a84
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Aug 28 08:42:16 2020 -0400
+| 
+|     Add note about Windows and cmd.exe/PowerShell
+|     
+|     This patch also removes a bit of confusing text about Windows (if people
+|     are using WSL, they don't need `/?` style flags).
+|   
+*   commit c277c7f8acda9aeef963f5e4b3ac0ad6716e73c5
+|\  Merge: da9aa9f 2ff7d70
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Wed Aug 19 20:57:49 2020 -0400
+| | 
+| |     Merge branch 'marcoroganovic/patch-01' into master
+| | 
+| * commit 2ff7d70d38467239a623773d2304b436167265f9
+|/  Author: Marko Roganovic <marcoroganovic@gmail.com>
+|   Date:   Mon Aug 10 15:24:52 2020 +0200
+|   
+|       Add translation URL for Serbian language
+|   
+*   commit da9aa9ff7532f5dc0c3e791564bdde28c3440d0d
+|\  Merge: 363d782 d258763
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sun Aug 9 18:25:35 2020 -0400
+| | 
+| |     Merge branch 'Ersmes/check-repo' into master
+| | 
+| * commit d258763851d9fd94f77ea5f0800147122db32044
+|/  Author: Eric Mesina <esmesina02@gmail.com>
+|   Date:   Sun Aug 9 17:09:19 2020 -0500
+|   
+|       Fixed typo in debugging lecture
+| 
+* commit 363d7822fb96b8d1eb84e16acac6f3c94fcbefa1
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sun Aug 9 08:29:24 2020 -0400
+| 
+|     Fix broken link
+| 
+* commit 349c25963608a1cff5ed3b0fb931a1dbbbc9adeb
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Thu Jul 23 06:29:20 2020 -0400
+| 
+|     Add note on intentional spelling
+| 
+* commit da9e6585e2cbf5a82b3783d014c5e643ed1e20d0
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat Jul 11 12:08:39 2020 -0400
+| 
+|     Update for terminals without 24-bit color support
+|     
+|     Thanks to @nickycutesc for raising this issue in
+|     https://github.com/missing-semester/missing-semester/issues/85.
+|   
+*   commit be93a856060b98f7b05610f6fa948db2899caa6f
+|\  Merge: df730d8 4eb6f4f
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sat Jul 11 11:57:41 2020 -0400
+| | 
+| |     Merge branch 'sreevamsiy/patch-1'
+| | 
+| * commit 4eb6f4f24964a3facabf8680c1f197944001c106
+|/  Author: sreevamsiy <50525536+sreevamsiy@users.noreply.github.com>
+|   Date:   Sat Jul 11 11:51:42 2020 +0530
+|   
+|       Update command-line.md
+|       
+|       Fixing spelling of avoid.
+|   
+*   commit df730d8ec6c74fe98cf15b81ce6de8e32ef3e146
+|\  Merge: 6f060d3 fc64d66
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Fri Jul 10 16:19:28 2020 -0400
+| | 
+| |     Merge pull request #83 from hoxiea/master
+| |     
+| |     Search and replace link to Vim lecture, minor R correction and Rust uninstall clarification per Jon review
+| | 
+| * commit fc64d666c0c1b87b977ef1b80a3efe4765024c0c
+| | Author: Hoxie <hoxiea@gmail.com>
+| | Date:   Fri Jul 10 13:58:53 2020 -0400
+| | 
+| |     Remove incorrect/ambiguous 'separated'
+| | 
+| * commit 071f533903dbbbaa0ba4e616eb06c03fcbb693d2
+| | Author: Hoxie <hoxiea@gmail.com>
+| | Date:   Fri Jul 10 13:24:40 2020 -0400
+| | 
+| |     Search and replace link to Vim lecture, minor R correction and Rust
+| |     uninstall clarification per Jon review
+| |   
+* |   commit 6f060d3886af941a9d9af201c09927ff49289b57
+|\ \  Merge: cba370f e3bb9fe
+| | | Author: Anish Athalye <me@anishathalye.com>
+| | | Date:   Thu Jul 9 07:17:28 2020 -0400
+| | | 
+| | |     Merge branch 'AnhTuDo1998/patch-1'
+| | | 
+| * | commit e3bb9fe87f7b6ee97e71a761190eb7757a3b0bda
+|/ /  Author: Do Anh Tu <32509869+AnhTuDo1998@users.noreply.github.com>
+| |   Date:   Thu Jul 9 19:07:20 2020 +0800
+| |   
+| |       Added Vietnamese translation site link
+| |   
+* |   commit cba370fcae4310822e5259ca2d4af368651f0e6b
+|\ \  Merge: cc4e618 204e922
+| | | Author: Anish Athalye <me@anishathalye.com>
+| | | Date:   Mon Jul 6 06:36:38 2020 -0400
+| | | 
+| | |     Merge branch 'bewuethr/q-and-a-typos'
+| | | 
+| * | commit 204e9228b89fadb2474ce65a2d7580511ee477a5
+|/ /  Author: Benjamin Wuethrich <8521043+bewuethr@users.noreply.github.com>
+| |   Date:   Sun Jul 5 19:15:21 2020 -0400
+| |   
+| |       Fix typos in Q&A lecture notes
+| |   
+* |   commit cc4e61831359a5106b7123df6c26f2a7126c54ce
+|\ \  Merge: 655a7a0 e754dd0
+| | | Author: Anish Athalye <me@anishathalye.com>
+| | | Date:   Sun Jul 5 16:50:09 2020 -0400
+| | | 
+| | |     Merge branch 'bewuethr/potpourri-typos'
+| | | 
+| * | commit e754dd0fca5406eb62d264ef0f2075316d5f9979
+|/ /  Author: Benjamin Wuethrich <8521043+bewuethr@users.noreply.github.com>
+| |   Date:   Sun Jul 5 16:43:48 2020 -0400
+| |   
+| |       Fix TOC entry for hammerspoon
+| |   
+* |   commit 655a7a0f13af683f2cf3c738db4fad5f78c7684b
+|\ \  Merge: 87046b5 70336a5
+| | | Author: Anish Athalye <me@anishathalye.com>
+| | | Date:   Sun Jul 5 15:23:16 2020 -0400
+| | | 
+| | |     Merge branch 'bewuethr/potpourri-typos'
+| | | 
+| * | commit 70336a5190fcb3884e0e74163733a9e300ef49b2
+| | | Author: Benjamin Wuethrich <8521043+bewuethr@users.noreply.github.com>
+| | | Date:   Sun Jul 5 14:31:30 2020 -0400
+| | | 
+| | |     Fix typo in potpourri lecture
+| | |   
+* | |   commit 87046b52c2148864ed65939c8aeb5cc3b530e697
+|\ \ \  Merge: e53ec74 db94dba
+| |/ /  Author: Anish Athalye <me@anishathalye.com>
+|/| |   Date:   Sun Jul 5 15:22:45 2020 -0400
+| | |   
+| | |       Merge branch 'bewuethr/typo'
+| | | 
+| * | commit db94dba2d77a6e3773250960b3f9004b3596e746
+|/ /  Author: Benjamin Wuethrich <8521043+bewuethr@users.noreply.github.com>
+| |   Date:   Sun Jul 5 14:13:50 2020 -0400
+| |   
+| |       Fix typo in security notes
+| |   
+* |   commit e53ec74960b886a425bc5a6c8c920e00b4c84f7b
+|\ \  Merge: b92ae97 de828a1
+| | | Author: Anish Athalye <me@anishathalye.com>
+| | | Date:   Sun Jul 5 06:51:01 2020 -0400
+| | | 
+| | |     Merge branch 'zhangke91/fix-typo'
+| | | 
+| * | commit de828a1b763f615fd22a7756d355e593081374e5
+|/ /  Author: Ke Zhang <zhangkegrand@gmail.com>
+| |   Date:   Sat Jul 4 21:58:46 2020 -0700
+| |   
+| |       Fix the typo s/clone/fork/ in exercise section in version-control.md.
+| |   
+* |   commit b92ae972216d9fe32b1183b91eb661c9af7a21e5
+|\ \  Merge: 8ab8905 d387971
+| | | Author: Anish Athalye <me@anishathalye.com>
+| | | Date:   Sat Jul 4 14:01:07 2020 -0400
+| | | 
+| | |     Merge branch 'bewuethr/typo'
+| | | 
+| * | commit d3879719371bb00ee02171628ea8064eb1da1794
+|/ /  Author: Benjamin Wuethrich <8521043+bewuethr@users.noreply.github.com>
+| |   Date:   Sat Jul 4 13:52:33 2020 -0400
+| |   
+| |       Fix typo
+| | 
+* | commit 8ab8905944349ad39b66e789122ba911d25ab441
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sat Jul 4 09:00:18 2020 -0400
+| | 
+| |     Ignore another flaky website
+| | 
+* | commit 0c5de338573ff88c44ec492e2925cc284a2c2365
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sat Jul 4 08:55:20 2020 -0400
+| | 
+| |     Fix ignoring of userstyles.org
+| |     
+| |     The matching is exact string match, and we had a trailing "/" in one use
+| |     of the URL but not in another.
+| |   
+* |   commit 1c514b1fbebe2bb9236cc181afebf3421a14b044
+|\ \  Merge: bfd906c 7133222
+| | | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | | Date:   Fri Jul 3 14:36:40 2020 -0400
+| | | 
+| | |     Merge pull request #72 from wesleyjr01/ignore
+| | |     
+| | |     Add '__pycache__/' to .gitignore
+| | | 
+| * | commit 7133222efb2f4436524adc14404b08dc5f45a99e
+| | | Author: Wesley Bortolozo <wesleyjr0101@gmail.com>
+| | | Date:   Fri Jul 3 14:49:47 2020 -0300
+| | | 
+| | |     Possibly wrong GitHub Pages Hyperlink
+| | | 
+| * | commit 2394906a3f47a0cf45222d21ae8ac087999ab88b
+| | | Author: Wesley Bortolozo <wesleyjr0101@gmail.com>
+| | | Date:   Fri Jul 3 11:29:36 2020 -0300
+| | | 
+| | |     Add '__pycache__/' to .gitignore, in the lectures
+| | |     you used some python scripts, it may generate
+| | |      a __pycache__ folder and submit it to remote.
+| | |   
+* | |   commit bfd906caa264d04b43c9560b796fb9a5637454d5
+|\ \ \  Merge: 8cd6b67 77107e7
+| |/ /  Author: Jon Gjengset <jon@thesquareplanet.com>
+|/| |   Date:   Fri Jul 3 14:36:17 2020 -0400
+| | |   
+| | |       Merge pull request #73 from wesleyjr01/pages
+| | |       
+| | |       Possibly wrong GitHubPages hyperlink.
+| | | 
+| * | commit 77107e7a6d6eae4d80d11daff3e3ed37cdad4144
+|/ /  Author: Wesley Bortolozo <wesleyjr0101@gmail.com>
+| |   Date:   Fri Jul 3 14:58:44 2020 -0300
+| |   
+| |       Possibly wrong GitHubPages hyperlink.
+| |   
+* |   commit 8cd6b672b06b3d01faa725a1482f0a712aa532ca
+|\ \  Merge: 0bf2dbf 0c7efdb
+| | | Author: Anish Athalye <me@anishathalye.com>
+| | | Date:   Fri Jul 3 04:55:08 2020 -0400
+| | | 
+| | |     Merge branch 'shiyoung77/master'
+| | | 
+| * | commit 0c7efdbe8bc2c4cc9e694160bc825d74572807fc
+|/ /  Author: shiyoung77 <shiyoung@umich.edu>
+| |   Date:   Thu Jul 2 19:53:53 2020 -0400
+| |   
+| |       Fix description of "git diff <filename>"
+| |   
+* |   commit 0bf2dbfb78a15159354f865b4c20b87be96c3e2d
+|\ \  Merge: 04348dc 4cd8612
+| | | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | | Date:   Tue Jun 30 15:52:15 2020 -0400
+| | | 
+| | |     Merge pull request #70 from TanayB11/patch-1
+| | |     
+| | |     Some phrasing changes and examples
+| | | 
+| * | commit 4cd861224918d5c511406200b037b7b1bbcabcb6
+| | | Author: Tanay B <tanaybiradar24@gmail.com>
+| | | Date:   Tue Jun 30 12:50:32 2020 -0700
+| | | 
+| | |     Fix grammar
+| | |     
+| | |     Cleaned up paragraph structure. Going from the idea of webservices to backing up is more clear than:
+| | |     1. Introducing the problem of backing up webservices
+| | |     2. Then providing an example of a tool (gmvault)
+| | |     3. Then stating backing them up can be an issue
+| | |     4. Then going back to saying that there are tools that can help
+| | | 
+| * | commit 9a5a9e0292c1eb9326cd9de0775432cefaca784c
+| | | Author: Tanay B <tanaybiradar24@gmail.com>
+| | | Date:   Tue Jun 30 12:42:03 2020 -0700
+| | | 
+| | |     Remove macOS example
+| | |   
+| * |   commit 519de2d21b4627a377904a68b7f8294748378853
+| |\ \  Merge: ebe91a4 ed249f4
+| | | | Author: Tanay B <tanaybiradar24@gmail.com>
+| | | | Date:   Mon Jun 29 20:52:08 2020 -0700
+| | | | 
+| | | |     Merge pull request #1 from TanayB11/patch-2
+| | | |     
+| | | |     Phrasing tweak
+| | | | 
+| | * | commit ed249f4b4637197af61297ff6c8b9a94bb626698
+| |/ /  Author: Tanay B <tanaybiradar24@gmail.com>
+|/| |   Date:   Mon Jun 29 20:51:39 2020 -0700
+| | |   
+| | |       Phrasing tweak
+| | | 
+| * | commit ebe91a4f90b21c0f12bf7ebf633bdffd6c6b2973
+|/ /  Author: Tanay B <tanaybiradar24@gmail.com>
+| |   Date:   Mon Jun 29 10:41:33 2020 -0700
+| |   
+| |       Examples and syntactic changes
+| |       
+| |       Provided macOS Time Machine as an example of a deduplicated backup and made some grammatical/syntactic edits.
+| |   
+* |   commit 04348dccbfaadd4c504a350fbc9ac1379a888834
+|\ \  Merge: 9dc27f3 1bffc37
+| | | Author: Anish Athalye <me@anishathalye.com>
+| | | Date:   Tue Jun 16 05:16:22 2020 -0400
+| | | 
+| | |     Merge branch 'missing-semester-esp/master'
+| | | 
+| * | commit 1bffc370380a5dfb71f6e97516fa9b924f165bfd
+|/ /  Author: Cristóbal Alcázar <alcazar.cristobal90@gmail.com>
+| |   Date:   Tue Jun 16 02:28:00 2020 -0400
+| |   
+| |       Add Spanish translation link
+| |   
+* |   commit 9dc27f3459baa0856abf13a1831fca4cec34fa5b
+|\ \  Merge: d9d4fd6 c56cb05
+| | | Author: Anish Athalye <me@anishathalye.com>
+| | | Date:   Thu Jun 11 07:05:24 2020 -0400
+| | | 
+| | |     Merge branch 'bewuethr/typos-lecture-2'
+| | | 
+| * | commit c56cb05e7df74145913ce07202d8d13ecabdcdab
+| | | Author: Benjamin Wuethrich <8521043+bewuethr@users.noreply.github.com>
+| | | Date:   Wed Jun 10 22:56:14 2020 -0400
+| | | 
+| | |     Fix "find -path" command to match comment
+| | | 
+| * | commit cc71a6a8a57f91d5c287ed03fe3a95b4dcbb61bb
+| | | Author: Benjamin Wuethrich <8521043+bewuethr@users.noreply.github.com>
+| | | Date:   Sun Jun 7 17:23:58 2020 -0400
+| | | 
+| | |     Add small fixes for shell tools lecture
+| | | 
+* | | commit d9d4fd6111c273f523fe38dc1a5746ae7be4de77
+| | | Author: Anish Athalye <me@anishathalye.com>
+| | | Date:   Tue Jun 9 13:03:37 2020 -0400
+| | | 
+| | |     Clean up translations list
+| | |   
+* | |   commit 1a908f269114f08bd842f3040f486e55277f6d9c
+|\ \ \  Merge: 5eb2556 2ae89b2
+| | | | Author: Anish Athalye <me@anishathalye.com>
+| | | | Date:   Tue Jun 9 12:57:37 2020 -0400
+| | | | 
+| | | |     Merge branch 'missing-semester-zh-Hant/master'
+| | | | 
+| * | | commit 2ae89b24266ad2f96652dd89a7277f0795562d58
+|/ / /  Author: Kirisame Mion <misaka13645@gmail.com>
+| | |   Date:   Tue Jun 9 10:18:02 2020 +0800
+| | |   
+| | |       Add Traditional Chinese translation link
+| | |   
+* | |   commit 5eb25569c736bf76ab2cd99694589dbaf4868748
+|\ \ \  Merge: 47c053d 3784fbd
+| |/ /  Author: Anish Athalye <me@anishathalye.com>
+|/| |   Date:   Mon Jun 8 07:53:27 2020 -0400
+| | |   
+| | |       Merge branch 'GzuPark/patch-1'
+| | | 
+| * | commit 3784fbda21acd0d03abf3b7894734cb817f1756e
+|/ /  Author: Jongmin Park <9290341+GzuPark@users.noreply.github.com>
+| |   Date:   Mon Jun 8 15:33:59 2020 +0900
+| |   
+| |       Add the translate to Korean version
+| |   
+* |   commit 47c053d5fcc51fe0b738ded4e190d400a6bd765e
+|\ \  Merge: a9009f9 43d6d7f
+| | | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | | Date:   Sun Jun 7 12:46:22 2020 -0400
+| | | 
+| | |     Merge pull request #62 from hasantezcan/master
+| | |     
+| | |     Add Turkish translation
+| | | 
+| * | commit 43d6d7f258b1df25cbfea3dec74a84bc5be8ed3a
+|/ /  Author: hasantezcan <hasantezcan77@gmail.com>
+| |   Date:   Sun Jun 7 17:39:19 2020 +0300
+| |   
+| |       Add Turkish translation
+| | 
+* | commit a9009f97b51bac3ba2f1e1f39dce1b25e1c31823
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Jun 2 09:11:19 2020 -0400
+| | 
+| |     Update workaround
+| |     
+| |     This change is necessary because downloading the cert from internet2.edu
+| |     relies on the earlier workaround for the expired root certificate.
+| | 
+* | commit 961a9faad1eb57c221dcfd58861dcc1b67ed2757
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Jun 2 09:09:05 2020 -0400
+| | 
+| |     Add flaky website to ignore list
+| | 
+* | commit e00caaac4ce1006f12b04bb5112ce103e5e833a9
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Jun 2 09:08:55 2020 -0400
+| | 
+| |     Update broken link
+| | 
+* | commit 3bce0cacfe0175eaa0588bf59e61d8c0973319f3
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Jun 2 08:59:11 2020 -0400
+| | 
+| |     Add workaround for expired root cert issue in CI
+| |   
+* |   commit 3bb18d5d4f88bf6e2f4e896ed9b23c55bc6a0ea3
+|\ \  Merge: ada2d99 a3a7490
+| | | Author: Anish Athalye <me@anishathalye.com>
+| | | Date:   Mon Jun 1 13:55:26 2020 -0400
+| | | 
+| | |     Merge pull request #61 from huangrt01/master
+| | |     
+| | |     TYPO in version-control.md
+| | | 
+| * | commit a3a7490fd496c7b39a023e86675c2ecf6bb69876
+|/ /  Author: huangrt01 <huangrt01@163.com>
+| |   Date:   Tue Jun 2 01:05:19 2020 +0800
+| |   
+| |       TYPO in version-control.md
+| |   
+* |   commit ada2d99a7e2dd2ed858cc3c3e9be5c4299235316
+|\ \  Merge: 2c91a00 f53530a
+| | | Author: Anish Athalye <me@anishathalye.com>
+| | | Date:   Mon Jun 1 08:03:55 2020 -0400
+| | | 
+| | |     Merge branch 'LennartNeukamm/patch-1'
+| | | 
+| * | commit f53530a69480548f2da47dfb835d1a72c98753fc
+|/ /  Author: LennartNeukamm <56979137+LennartNeukamm@users.noreply.github.com>
+| |   Date:   Mon Jun 1 11:10:55 2020 +0200
+| |   
+| |       Fixed typo
+| | 
+* | commit 2c91a00af20cb30eedf3eb2e46b15a8dc2565692
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sun May 31 21:01:07 2020 -0400
+| | 
+| |     Add link to short-circuiting operators
+| |     
+| |     Thanks to @gnTSZKzduKYvP9zr8 for pointing out that we should explain
+| |     this a bit more, in
+| |     https://github.com/missing-semester/missing-semester/pull/57.
+| | 
+* | commit 923ff93dab5b7235920379e058a54a74ef452ce1
+|/  Author: Anish Athalye <me@anishathalye.com>
+|   Date:   Sun May 31 20:57:14 2020 -0400
+|   
+|       Fix typo
+|       
+|       Thanks to @Ivan-Kim for reporting this in
+|       https://github.com/missing-semester/missing-semester/issues/56.
+|   
+*   commit d73538964cf9b1c1d0d5f38b535bf4f4c0fea9d9
+|\  Merge: ba98ccf b5951d8
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Fri May 29 21:24:22 2020 -0400
+| | 
+| |     Merge branch 'hoxiea/edits'
+| | 
+| * commit b5951d89f45efaa4cc227747a8886c4ea7f0b484
+|/  Author: Hoxie <hoxiea@gmail.com>
+|   Date:   Fri May 29 16:54:50 2020 -0400
+|   
+|       Capitalize Vim mode names, brief note about how to start vimtutor
+| 
+* commit ba98ccf2e34b6f457e3719ceff8bbdf08a365bfb
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri May 29 06:25:50 2020 -0400
+| 
+|     Add workaround for incomplete certificate chains
+| 
+* commit 6291488891977feeb66b9b6414c23fdecafc0e5d
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Thu May 28 20:30:56 2020 -0400
+| 
+|     Switch man page links to HTTPS
+|   
+*   commit a71aac3e7ab00b375cadd3eadbeb0e319c167cbd
+|\  Merge: dee513e 368c003
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Thu May 28 20:20:55 2020 -0400
+| | 
+| |     Merge branch 'etcadinfinitum/commit-messages'
+| | 
+| * commit 368c003796407f7b055ddda29c052cd7c281fbdf
+|/  Author: Lizzy Presland <lizzy.presland@gmail.com>
+|   Date:   Thu May 28 16:28:41 2020 -0700
+|   
+|       Add second link for commit message best practices
+|       
+|       This article does a fantastic job of explaining not only what the
+|       conventions are, but _why they are important_. Chris also talks about
+|       other conventions that are significant, like using the imperative
+|       mood in the subject line, and provides delightful and
+|       easy-to-understand examples of these practices' importance.
+| 
+* commit dee513ecd1d88abd5e9dd62289d5d34f54b6ccdf
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Thu May 28 19:13:48 2020 -0400
+| 
+|     Fix shebang technicality
+|   
+*   commit 97b2d44da0f7be811d39d44f37cb67e2109a332d
+|\  Merge: cb7f8ca 03d63e2
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Tue May 26 21:53:57 2020 -0400
+| | 
+| |     Merge pull request #52 from hoxiea/patch-2
+| |     
+| |     Minor cleanup
+| | 
+| * commit 03d63e2a1cf727a05f48aa001977beaf5de3cbf1
+|/  Author: Hoxie Ackerman <hoxiea@gmail.com>
+|   Date:   Tue May 26 20:14:31 2020 -0400
+|   
+|       Minor cleanup
+|       
+|       Add a few missing words, add a few clarifying commas, distinguish between fasd and autojump
+| 
+* commit cb7f8ca534e13f9d171e8d6d503c4289591ee0c1
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon May 25 13:17:00 2020 -0400
+| 
+|     Fix shallow clone command
+|   
+*   commit 7da0dafd404cf671bbcdee204ea6b70e1a134b44
+|\  Merge: f25737f a3e6073
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sun May 24 19:19:15 2020 -0400
+| | 
+| |     Merge branch 'hoxiea/patch-1'
+| | 
+| * commit a3e6073c6eed5ecfba204ce5bca1d6e3641a5b9d
+| | Author: Hoxie Ackerman <hoxiea@gmail.com>
+| | Date:   Sun May 24 18:57:30 2020 -0400
+| | 
+| |     Pluralize "curriculum"
+| |   
+* |   commit f25737fb74bd152dba87ecc4e4a8cc1ed58f1e04
+|\ \  Merge: 96c4d86 282313b
+| |/  Author: Anish Athalye <me@anishathalye.com>
+|/|   Date:   Sun May 24 19:18:31 2020 -0400
+| |   
+| |       Merge branch 'bpshaver/master'
+| | 
+| * commit 282313b26485af52a7512cc6c1b922e26eb7edd8
+|/  Author: Ben Shaver <benpshaver@gmail.com>
+|   Date:   Sun May 24 18:10:37 2020 -0400
+|   
+|       Update metaprogramming.md
+| 
+* commit 96c4d869e2f625c6c812f0f498ac5fbcb303889b
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sun May 24 06:42:07 2020 -0400
+| 
+|     Fix kramdown inferring incorrect smart quote
+|     
+|     Thanks to @zhiming-xu for reporting this in
+|     https://github.com/missing-semester/missing-semester/pull/49.
+| 
+* commit 78074847d00d0926553194100e27ae0d2669c1e8
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri May 22 05:09:44 2020 -0400
+| 
+|     Add retrying in case of random network failures
+|     
+|     See
+|     https://docs.travis-ci.com/user/common-build-problems/#timeouts-installing-dependencies.
+|     It would be nicer if we could configure htmlproofer itself to retry, and
+|     only for failed links, but it does not appear to have a flag for doing
+|     that.
+|   
+*   commit d1a8e995ebe809d563e491dc3b5901da76f9db7a
+|\  Merge: d53fd50 3f45d8e
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Wed May 20 11:14:50 2020 -0400
+| | 
+| |     Merge pull request #48 from kdmayer/fixTypo
+| |     
+| |     First character after colons to lower-case.
+| | 
+| * commit 3f45d8e6c8747cf2b5603de26461dcfa66ca2b36
+| | Author: Kevin Mayer <kevin@Kevins-MBP.fritz.box>
+| | Date:   Wed May 20 16:59:19 2020 +0200
+| | 
+| |     First character after colons to lower-case.
+| | 
+* | commit d53fd50d0c44e5e8d8da8cff4aa5913f7bdf21f8
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Wed May 20 09:58:00 2020 -0400
+| | 
+| |     Add note on lectures being self-contained
+| | 
+* | commit 472b51670d6eaeb88b01cb4d1db74ee00c5f7237
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sun May 17 21:00:29 2020 -0400
+| | 
+| |     Add translations section to homepage
+| | 
+* | commit be33938b2b8ac6438bd20f09f10a21d6db70d651
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sat May 16 13:48:43 2020 -0400
+| | 
+| |     Fix broken fragments
+| | 
+* | commit 10c47e96345f04df0b96760f62b741af036525f6
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sat May 16 13:48:37 2020 -0400
+| | 
+| |     Allow images to be served over HTTP
+| | 
+* | commit e4acca0184e96c19102e21337cfc75ef33ee87b9
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sat May 16 13:39:28 2020 -0400
+| | 
+| |     Ignore some URLs that don't seem to work with htmlproofer
+| | 
+* | commit 9b2d860b1fe9e6ada1b564de3438db091c4d56a4
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sat May 16 11:10:40 2020 -0400
+| | 
+| |     Add build status to README
+| | 
+* | commit fa309f93162654a5a4993df8b151a1efc26ceb5c
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sat May 16 11:13:27 2020 -0400
+| | 
+| |     Fix Travis CI build
+| | 
+* | commit 5e6ad9fe4f9e9021a6c45a8a768cf45a210651f3
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sat May 16 11:09:39 2020 -0400
+| | 
+| |     Fix broken links
+| | 
+* | commit 60b245a4b1bb68febfd1c72789285eecf11715e6
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sat May 16 10:41:18 2020 -0400
+| | 
+| |     Remove links to defunct r/hackertools subreddit
+| | 
+* | commit 45937e76944f9d438882ab86b164a6436c3bd28d
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sat May 16 10:36:27 2020 -0400
+| | 
+| |     Add Travis CI config
+| |   
+* |   commit 1926cd77df44c04748278b2318de9f2482957f7e
+|\ \  Merge: 2c39f81 396ba17
+| | | Author: Anish Athalye <me@anishathalye.com>
+| | | Date:   Wed May 13 15:14:58 2020 -0400
+| | | 
+| | |     Merge branch 'devanshrj/master'
+| | | 
+| * | commit 396ba17febda9d473b96ed98f95ddf0a04d640d2
+|/ /  Author: devanshrj <devanshrj@outlook.com>
+| |   Date:   Thu May 14 00:42:01 2020 +0530
+| |   
+| |       Typo in command-line.md
+| |   
+* |   commit 2c39f810389970ea977938a85d6c2013c3081f16
+|\ \  Merge: 8c5a2d8 8e1b9d6
+| | | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | | Date:   Mon May 11 18:20:33 2020 -0400
+| | | 
+| | |     Merge pull request #44 from Corbin-A/master
+| | |     
+| | |     Small formatting and grammar tweaks
+| | | 
+| * | commit 8e1b9d64614a1cbf7c59aa2ac264df3da8b7a44e
+|/ /  Author: Corbin Albert <corbin.albert@gmail.com>
+| |   Date:   Mon May 11 15:07:12 2020 -0700
+| |   
+| |       Small formatting and grammar tweaks
+| |       
+| |       Nothing too special, mostly just adding a few words to assist in
+| |       sentence flow. I also elaborated a bit more on the tmux prefix to
+| |       hopefully make it a bit easier to understand, though it was pretty
+| |       self-explanatory to begin with.
+| | 
+* | commit 8c5a2d8c22e42c482061d652ea797a1a2f12484b
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Fri May 8 10:55:16 2020 -0400
+| | 
+| |     Remove use of "said"
+| |     
+| |     Thanks to @rtvkiz for bringing this up.
+| |   
+* |   commit 5c0097c9fb3dfef62460b6fc9fe6071a8b5c31f9
+|\ \  Merge: f05f6e3 f5401d0
+| | | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | | Date:   Mon May 4 16:35:41 2020 -0400
+| | | 
+| | |     Merge pull request #42 from FMJansen/patch-1
+| | |     
+| | |     fix typo
+| | | 
+| * | commit f5401d0100cc032372cabf6a384ac47dcca54b10
+|/ /  Author: Floris <floris@fmjansen.nl>
+| |   Date:   Mon May 4 22:34:38 2020 +0200
+| |   
+| |       fix typo
+| |       
+| |       The sentence missed an ‘it’
+| |   
+* |   commit f05f6e34c91252a207c7f57c729245aca7bb3217
+|\ \  Merge: 036b488 e1e9297
+| | | Author: Anish Athalye <me@anishathalye.com>
+| | | Date:   Sat Apr 25 07:12:20 2020 -0400
+| | | 
+| | |     Merge branch 'EthanVieira/master'
+| | | 
+| * | commit e1e92975321a26af716db5cd0bb007787e7492dc
+|/ /  Author: Ethan Vieira <ethanvieira@gmail.com>
+| |   Date:   Sat Apr 25 03:01:29 2020 -0500
+| |   
+| |       fix small typo
+| |   
+* |   commit 036b488da271d8120c2c4b477dab324015120fff
+|\ \  Merge: 64017d4 4fd5ac3
+| | | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | | Date:   Tue Apr 21 17:42:14 2020 -0400
+| | | 
+| | |     Merge pull request #40 from StevenMaude/correct-shell-parameter-term
+| | |     
+| | |     Describe the shell parameter $! correctly
+| | | 
+| * | commit 4fd5ac39f50449dc784d17674a6215cbe99f3f62
+|/ /  Author: Steven Maude <StevenMaude@users.noreply.github.com>
+| |   Date:   Tue Apr 21 22:34:34 2020 +0100
+| |   
+| |       Describe the shell parameter $! correctly
+| |       
+| |       `$!` is a special parameter, not an environment variable.
+| |       
+| |       "special parameter" is used in both the Open Group specification:
+| |       https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html
+| |       
+| |       and the bash documentation:
+| |       https://www.gnu.org/software/bash/manual/html_node/Special-Parameters.html
+| |   
+* |   commit 64017d45f89c0060bd758e917cfedffbe5397f8a
+|\ \  Merge: d364ef3 b32ad5c
+| | | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | | Date:   Fri Apr 10 22:06:03 2020 -0400
+| | | 
+| | |     Merge pull request #38 from connorrose/typo
+| | |     
+| | |     Debugging-Profiling - fix exercise autonumbers and indenting
+| | | 
+| * | commit b32ad5c31636d99210ae2515b979ffa9c70c3223
+|/ /  Author: Connor Rose <connorrose.git@gmail.com>
+| |   Date:   Fri Apr 10 17:58:26 2020 -0700
+| |   
+| |       Fix exercise autonumber and indents
+| |   
+* |   commit d364ef3e328508cb067ffcbfc3fd418dc6bbce63
+|\ \  Merge: d4dabb7 49a8040
+| | | Author: Anish Athalye <me@anishathalye.com>
+| | | Date:   Thu Apr 9 10:09:43 2020 -0400
+| | | 
+| | |     Merge branch 'nishkakotian/my_branch'
+| | | 
+| * | commit 49a804028aec20a413f8e730853bebebe213de5a
+|/ /  Author: nishkakotian <nishka308@gmail.com>
+| |   Date:   Thu Apr 9 19:29:33 2020 +0530
+| |   
+| |       Removed a letter
+| |   
+* |   commit d4dabb71e175963c0f8a44c4f94eec56ff01a258
+|\ \  Merge: 112f7d4 370beb1
+| | | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | | Date:   Mon Apr 6 10:54:49 2020 -0400
+| | | 
+| | |     Merge pull request #35 from eldarkurtic/master
+| | |     
+| | |     Fix small typos
+| | | 
+| * | commit 370beb1de03c3bb35c53a56cd83b0d861a3c0fb7
+| | | Author: cijad <eldar.ciki@gmail.com>
+| | | Date:   Mon Apr 6 09:20:44 2020 +0200
+| | | 
+| | |     Fix 'the math' -> 'math'
+| | | 
+| * | commit 9d61ea6f207e73be71852f7719284d6513b90905
+|/ /  Author: cijad <eldar.ciki@gmail.com>
+| |   Date:   Sun Apr 5 20:18:51 2020 +0200
+| |   
+| |       Fix small typos
+| |   
+* |   commit 112f7d46a6a4a7992dfae477ea7899343617dae1
+|\ \  Merge: 5b86715 a1a133a
+| | | Author: Anish Athalye <me@anishathalye.com>
+| | | Date:   Fri Apr 3 15:00:26 2020 -0400
+| | | 
+| | |     Merge branch 'krishnakumarg1984/krishna_fix_typos'
+| | | 
+| * | commit a1a133af9081e42a1814358c870e4a3824580c39
+|/ /  Author: Krishnakumar Gopalakrishnan <krishna.kumar@ucl.ac.uk>
+| |   Date:   Fri Apr 3 19:53:26 2020 +0100
+| |   
+| |       adds a number of typo fixes to markdown files in the project repo
+| | 
+* | commit 5b86715669a0eb8cd02c2a656907c1c757096861
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Fri Mar 27 09:02:40 2020 -0400
+| | 
+| |     Typo; fixes #33
+| |   
+* |   commit d6b1988c80c605906f393920cef0600b0e65b9f0
+|\ \  Merge: 5172ab6 5158694
+| |/  Author: Jon Gjengset <jon@thesquareplanet.com>
+|/|   Date:   Fri Mar 27 09:01:41 2020 -0400
+| |   
+| |       Merge pull request #32 from carpdiem/patch-3
+| |       
+| |       Change link to cProfile from python2 -> python3 docs
+| | 
+| * commit 5158694497bbe4c4bfbf568ce2e9d450bd4dd1d7
+|/  Author: Michael <carpdiem@gmail.com>
+|   Date:   Thu Mar 26 17:21:00 2020 -0700
+|   
+|       Change link to cProfile from python2 -> python3 docs
+|       
+|       The current link to cProfile in the exercises links to the python2 documentation. Maybe this should be the python3 documentation instead?
+| 
+* commit 5172ab6d4888a883cdaf1f277efc0adb4a5ea99f
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Mar 23 22:17:54 2020 -0400
+| 
+|     Fix mixup between RemoteForward and LocalForward
+|     
+|     Thanks to @carpdiem for pointing this out in
+|     https://github.com/missing-semester/missing-semester/issues/31.
+|   
+*   commit 3fb62b082917447e9d4c2aa4f7b29e3426c64776
+|\  Merge: 143625b 8397324
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Mon Mar 23 18:49:12 2020 -0400
+| | 
+| |     Merge pull request #30 from carpdiem/patch-2
+| |     
+| |     link to info about ssh-agent is incorrect
+| | 
+| * commit 83973242fe6a9eef14461efc4b6ba479d14daca3
+|/  Author: Michael <carpdiem@gmail.com>
+|   Date:   Mon Mar 23 15:10:12 2020 -0700
+|   
+|       link to info about ssh-agent is incorrect
+|       
+|       linked url: https://www.ssh.com/ssh/agents
+|       correct url: https://www.ssh.com/ssh/agent
+|   
+*   commit 143625be17088b45c8c8b7e606e614ebaec139f0
+|\  Merge: cb458ee a0e32fe
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Sun Mar 22 12:00:47 2020 -0400
+| | 
+| |     Merge pull request #29 from lepasq/typo-shell-lecture
+| |     
+| |     Fix typo inside shell-tools.md
+| | 
+| * commit a0e32fe98ca0c5db5c9ecb75a4dd9271a42ba4f0
+|/  Author: lepasq <53230128+lepasq@users.noreply.github.com>
+|   Date:   Sun Mar 22 14:08:08 2020 +0100
+|   
+|       Fix typo inside shell-tools.md
+|       
+|       Added missing period.
+|   
+*   commit cb458ee45a76af1e113437db5edf8e734405e48e
+|\  Merge: 505f7c4 2598a38
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Sat Mar 21 17:18:13 2020 -0400
+| | 
+| |     Merge pull request #27 from rbnsl/master
+| |     
+| |     Added prettier as example of a code formatter
+| | 
+| * commit 2598a388d582ddf042f8f14be1518c3e1e8c29c7
+| | Author: Rohan Bansal <rohanarunbansal@gmail.com>
+| | Date:   Fri Mar 20 20:36:26 2020 -0700
+| | 
+| |     Added prettier as example of a code formatter
+| | 
+* | commit 505f7c4dd9358cd08cf8a6fe7a0571d58d33c939
+|/  Author: Anish Athalye <me@anishathalye.com>
+|   Date:   Sat Mar 21 10:51:05 2020 -0400
+|   
+|       Fix typo
+|   
+*   commit d1107eb3004c721bbd22abd1df1035841c971f9f
+|\  Merge: 9d87979 53cd428
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Mon Mar 16 16:03:04 2020 -0400
+| | 
+| |     Merge branch 'J16053/patch-1'
+| | 
+| * commit 53cd42893551591ab676e5a96445a3a622a71f41
+|/  Author: Jacinta <jh5372@nyu.edu>
+|   Date:   Mon Mar 16 23:50:09 2020 +0400
+|   
+|       Fix typo in example
+|   
+*   commit 9d8797992961841a997a08bf586f68daed45defa
+|\  Merge: 98e673d bc6aefb
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Fri Mar 13 10:48:04 2020 -0400
+| | 
+| |     Merge branch 'lcynot/patch-1'
+| | 
+| * commit bc6aefb28c339e0c446f8c2e59335c602b2e61ff
+|/  Author: Tony Liu <lcynot@users.noreply.github.com>
+|   Date:   Fri Mar 13 00:42:08 2020 +0800
+|   
+|       fix the typo
+|       
+|       fix the typo of "hash function"
+|   
+*   commit 98e673d56a5bb372c18813d80cdcad2c46f602ba
+|\  Merge: b73b4a2 12b8808
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Sun Mar 8 12:16:12 2020 -0400
+| | 
+| |     Merge pull request #23 from Mendoza2909/typo
+| |     
+| |     Typo
+| | 
+| * commit 12b8808e0e2cad6ccb66639c26e107eef51b599d
+|/  Author: Colin Menzies <colin@hyperexponential.com>
+|   Date:   Sun Mar 8 16:04:53 2020 +0000
+|   
+|       Typo
+|   
+*   commit b73b4a267bdf0a5ecd8cf0b63560ae9316ca55c5
+|\  Merge: 55b5a2e 075b313
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Thu Mar 5 08:18:52 2020 -0500
+| | 
+| |     Merge branch 'carpdiem/patch-1'
+| | 
+| * commit 075b31309392be59468dcb45d86d91f64bd53d50
+|/  Author: Michael <carpdiem@gmail.com>
+|   Date:   Wed Mar 4 16:23:59 2020 -0800
+|   
+|       incorrect link in exercises: terminal multiplexer
+|       
+|       Second link in Exercises: Terminal multiplexer is a duplicate of the first link.
+|       Currently, both point to https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/
+|       Did you mean to direct the second link (about customizing your tmux conf) to the sequel blog post from the Ham Vocke at https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/ ?
+|   
+*   commit 55b5a2e8def9196a92c48e735b31cf2802685a5e
+|\  Merge: cb2b3c8 4febdca
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Fri Feb 28 10:36:23 2020 -0500
+| | 
+| |     Merge pull request #21 from piaoliangkb/master
+| |     
+| |     fix typo
+| | 
+| * commit 4febdca9b3c21654cd94fdc5f8cd850ac0a19b72
+|/  Author: piaoliangkb <418508556@qq.com>
+|   Date:   Fri Feb 28 12:56:40 2020 +0800
+|   
+|       fix typo
+|   
+*   commit cb2b3c80a1716e34a2e18345747fb9aa84327f83
+|\  Merge: 541accb ed37dcc
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Wed Feb 26 08:51:52 2020 -0500
+| | 
+| |     Merge pull request #20 from missing-semester/dependabot/bundler/nokogiri-1.10.8
+| |     
+| |     Bump nokogiri from 1.10.7 to 1.10.8
+| | 
+| * commit ed37dcc4af58c287e28f9b8db838fd5c46bae2d5
+|/  Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+|   Date:   Wed Feb 26 12:02:50 2020 +0000
+|   
+|       Bump nokogiri from 1.10.7 to 1.10.8
+|       
+|       Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.10.7 to 1.10.8.
+|       - [Release notes](https://github.com/sparklemotion/nokogiri/releases)
+|       - [Changelog](https://github.com/sparklemotion/nokogiri/blob/master/CHANGELOG.md)
+|       - [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.10.7...v1.10.8)
+|       
+|       Signed-off-by: dependabot[bot] <support@github.com>
+| 
+* commit 541accb0b2df129b049319cf0121e1be6ab56d5d
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Feb 24 10:50:59 2020 -0500
+| 
+|     Add more info on shebang
+| 
+* commit a8cf2e7567d8e581751f6f1b90f1942e70e11805
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Feb 24 10:42:29 2020 -0500
+| 
+|     Clarify `./semester` vs `sh semester` in exercises
+| 
+* commit a7592dd1e03ad64135c0560d1f66c66409509e2a
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Feb 24 10:42:13 2020 -0500
+| 
+|     Clarify lack of sysfs on macOS/Windows
+| 
+* commit de99a3901fdc9be88de6f6c0518e54a3474b60a1
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Thu Feb 13 17:29:17 2020 -0500
+| 
+|     Fix numbering
+|   
+*   commit dd235b84830a149819bb8e2530f01103ddad650b
+|\  Merge: c7391e7 dfa763c
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Mon Feb 10 07:21:47 2020 -0500
+| | 
+| |     Merge branch 'cthogg/patch-1'
+| | 
+| * commit dfa763c42a844126e914151229e647d87b55a231
+|/  Author: Christopher Hogg <cthogg@users.noreply.github.com>
+|   Date:   Mon Feb 10 10:11:40 2020 +0100
+|   
+|       fix: typo
+|       
+|       basic change to the sentence structure to make it clearer.
+|   
+*   commit c7391e74e32f111d614fab5298a3c0ff48791aa2
+|\  Merge: e2b716f 0fcfe45
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Sun Feb 9 11:37:38 2020 -0500
+| | 
+| |     Merge pull request #18 from krohnta/master
+| |     
+| |     Fix wrong option in alias example
+| | 
+| * commit 0fcfe45ab91db93fd78584134e4aa3c8fed4c5ff
+|/  Author: Teresa Krohn <tkrohn@posteo.de>
+|   Date:   Sun Feb 9 15:35:45 2020 +0100
+|   
+|       Fix wrong option in alias example
+| 
+* commit e2b716f3aee7a91189c5a3bf194c7e5fb82f7743
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat Feb 8 20:15:48 2020 -0500
+| 
+|     Add link to website license page
+| 
+* commit 9389a075a030e2a4b5234cbc0c46a5d36c58f88c
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Feb 7 14:40:42 2020 -0500
+| 
+|     Clarify that license covers source code
+| 
+* commit 3366d228efca0181a8e738373be8a6ac6d5c2bd8
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Feb 7 12:35:48 2020 -0500
+| 
+|     Tweak license wording
+|     
+|     - Add back source code link
+|     - Shorten "Licensed under..." wording
+|     - Remove link to CC license on homepage
+| 
+* commit c3b3045ce6294f21f4a72ad42c8b5b18092c7ae4
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Fri Feb 7 12:17:11 2020 -0500
+| 
+|     Add license and guidelines
+|   
+*   commit a6bed6aadb0386b4559461a5df050c09ca336329
+|\  Merge: b7dd961 d5d76e2
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Thu Feb 6 14:10:36 2020 -0500
+| | 
+| |     Merge branch 'manzt/patch-1'
+| | 
+| * commit d5d76e2b36be7324eff02014e9ae93423f681912
+|/  Author: Trevor Manz <trevor.j.manz@gmail.com>
+|   Date:   Thu Feb 6 14:07:05 2020 -0500
+|   
+|       tmux -t is illegal option
+| 
+* commit b7dd961603de32208230d06e0be58589140e7d95
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Feb 5 22:18:35 2020 -0500
+| 
+|     Fix typos in example
+|     
+|     Thanks to Victor Engmark for pointing this out
+|     (https://github.com/missing-semester/missing-semester/issues/13).
+| 
+* commit 0819942b6ea9e85ac3da9edec7f48cdcc118c960
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Feb 5 21:56:07 2020 -0500
+| 
+|     Add note on SHA-1 being broken
+|     
+|     Thanks to Ben Keith for suggesting this:
+|     https://github.com/missing-semester/missing-semester/pull/15#issuecomment-582686785.
+|   
+*   commit 0c3327f7094c1cb8b1d44a628aa7137621e89fa5
+|\  Merge: 90961b5 84e9163
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Wed Feb 5 21:43:26 2020 -0500
+| | 
+| |     Merge branch 'benlk/patch-1'
+| | 
+| * commit 84e91630ed98cfa0b2ce4a7ee8e863cd442f4773
+|/  Author: Ben Keith <1754187+benlk@users.noreply.github.com>
+|   Date:   Wed Feb 5 19:54:16 2020 -0500
+|   
+|       Enlarge upon the sha1sum examples
+|       
+|       To demonstrate how slightly-differing inputs have widely different outputs, and how repeating the same input generates the same output.
+|   
+*   commit 90961b56717f5fb9848a742d17864b595d1410ae
+|\  Merge: 2a2d4f2 8e49a02
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Wed Feb 5 16:25:14 2020 -0500
+| | 
+| |     Merge branch 'nixon/master'
+| | 
+| * commit 8e49a02f30951ae639a30df80acf9ede3b523567
+|/  Author: nixon <nixon@shun.org>
+|   Date:   Wed Feb 5 15:09:41 2020 -0600
+|   
+|       fix typo
+|   
+*   commit 2a2d4f22d004aea249f39ab58001146968d63df0
+|\  Merge: c875d6d f3f3237
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Wed Feb 5 07:58:17 2020 -0500
+| | 
+| |     Merge branch 'StTronn/versionundo'
+| | 
+| * commit f3f3237ceb11b635d71d6771c2ead578e8fcf226
+|/  Author: rishav <rishav.21m@gmail.com>
+|   Date:   Wed Feb 5 01:23:00 2020 +0530
+|   
+|       Add undo commands
+|   
+*   commit c875d6d39b8cd51c1ea9676c81a010e085940a83
+|\  Merge: 78e0840 b0bfd9f
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Feb 4 19:45:04 2020 -0500
+| | 
+| |     Merge branch 'SeanPedersen/patch-2'
+| | 
+| * commit b0bfd9f15166662695dc5676e72d027092b6d27b
+|/  Author: Sean Pedersen <37712604+SeanPedersen@users.noreply.github.com>
+|   Date:   Wed Feb 5 01:43:00 2020 +0100
+|   
+|       Update security.md
+|       
+|       Would make no sense to encrypt the public key...
+| 
+* commit 78e084091c2463bb0dde2f101f4150ce1b70c6dc
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Tue Feb 4 12:15:25 2020 -0500
+| 
+|     Note about 'real' metaprogramming meaning (#9)
+| 
+* commit 55e5c8150aaae23bcda139e22ad3a01d3f7785fb
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Feb 4 11:44:39 2020 -0500
+| 
+|     Add note about ZSH
+|     
+|     Thanks to Jon for catching this. See discussion in
+|     https://github.com/missing-semester/missing-semester/pull/8.
+|   
+*   commit a70337c5e37936724582a5acc09881707f0e410a
+|\  Merge: 1f3faa9 761f0d8
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Feb 4 10:59:55 2020 -0500
+| | 
+| |     Merge branch 'm-laniakea/patch-1'
+| | 
+| * commit 761f0d8f566d5393af8df48b9266b6e5248c9eb4
+|/  Author: eir <m-laniakea@users.noreply.github.com>
+|   Date:   Tue Feb 4 07:26:13 2020 -0800
+|   
+|       command-line.md/Aliases: Fix top-10 history script
+|       
+|       `history 1` returns only the current event, making it look like the only command in history is the script people just pasted into their terminal.
+|       Note that tail prints the last 10 lines by default.
+| 
+* commit 1f3faa9f22c0c0ac35e2ab291e9ebda1754bb933
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Mon Feb 3 22:11:26 2020 -0500
+| 
+|     Fix incorrect use of WebKit in Q&A notes
+| 
+* commit 5e9ddfbb9433187aa8664024ab8daae0df812cc1
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Mon Feb 3 12:54:06 2020 -0500
+| 
+|     Add captions for lecture 2
+| 
+* commit de1ecd2b232076ab3504e3f1b214901f12d27580
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Feb 3 12:49:13 2020 -0500
+| 
+|     Fix link
+| 
+* commit 2f1b015783b2636082c7265cca5426079854085a
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Feb 3 12:44:32 2020 -0500
+| 
+|     Add redirect
+| 
+* commit c99c9bda2e2517e29decd3e29984597f20428646
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Feb 3 12:37:23 2020 -0500
+| 
+|     Update links
+| 
+* commit 1ada0a5465bc41dc8cce8f0665b4b1f87ff7f294
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Feb 3 10:11:12 2020 -0500
+| 
+|     Update description
+| 
+* commit 6362f6ba055b17796ce2e92e86864a2857257039
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Feb 3 10:10:00 2020 -0500
+| 
+|     Remove irrelevant info now that class is over
+| 
+* commit 1fb1b4efc6fed7188ec61f849db9e353cff182ae
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Feb 3 08:33:49 2020 -0500
+| 
+|     Do editing pass on Q&A lecture
+| 
+* commit 18753d25d17dfa3f70c4ff998b8b9feba4e1ed99
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Mon Feb 3 02:12:13 2020 -0500
+| 
+|     Add subtitles for lectures 5,7,11
+| 
+* commit df9b9259118a016870beb631a13b4fbb299a0f81
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Mon Feb 3 02:05:35 2020 -0500
+| 
+|     Add notes for Q&A lecture
+| 
+* commit b62d1ce984a7d92a94b435fe5ecb4380b944bab0
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sun Feb 2 21:34:24 2020 -0500
+| 
+|     Fix "video coming soon" on /about/ page
+|     
+|     With this patch, if there's no mention of video, nothing is shown. If
+|     the video has an ID, then the video is shown. Otherwise, if there's
+|     something like `video: false`, then the notice about the pending video
+|     will be shown.
+| 
+* commit 39bd31d01fb7b0a40caa4e1f01ec1dea80bd7374
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Sun Feb 2 16:23:00 2020 -0500
+| 
+|     Add Q&A video
+| 
+* commit d030d5d88d2613e7eb37ac2b0f9ca811f812ab6c
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Sun Feb 2 14:19:25 2020 -0500
+| 
+|     Publish potpourri video
+| 
+* commit 209f3cc685fc5692a5a5b4a7494f120c6b8721c4
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Sat Feb 1 22:39:11 2020 -0500
+| 
+|     New videos for all lectures
+|   
+*   commit 47c8699a7650050f318a173d9f5f88ace59da302
+|\  Merge: 5da3fe5 df77502
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Sat Feb 1 17:22:53 2020 -0500
+| | 
+| |     Merge pull request #6 from martinplattnr/patch-1
+| |     
+| |     Update potpourri.md
+| | 
+| * commit df77502d0c182af852f85a12eb72f0a52b020555
+|/  Author: Martin Plattner <mrtn@plattner.me>
+|   Date:   Sat Feb 1 22:59:56 2020 +0100
+|   
+|       Update potpourri.md
+| 
+* commit 5da3fe53bfce5f4bea4f6095d73a981b1f1c85fb
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Wed Jan 29 19:48:38 2020 -0500
+| 
+|     Remove stray 1
+|   
+*   commit a5467b512b211fdaeab89002608b52411f0f5894
+|\  Merge: 7278613 8b7f440
+| | Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| | Date:   Wed Jan 29 17:00:55 2020 -0500
+| | 
+| |     Merge branch 'master' of github.com:missing-semester/missing-semester
+| | 
+| * commit 8b7f4407556ac98692b27715c5503f48fa09ff09
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Wed Jan 29 16:45:34 2020 -0500
+| | 
+| |     Nicer page break points
+| | 
+* | commit 72786137b007ea8d682601992f0d9bf01925b308
+|/  Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+|   Date:   Wed Jan 29 16:29:46 2020 -0500
+|   
+|       Add TOC for Potpourri
+| 
+* commit d06a8c3032ce1bdaec20402c043676b98e835518
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Wed Jan 29 13:12:17 2020 -0500
+| 
+|     Jose's Potpourri
+| 
+* commit a6131224c570970545987a624f03d76bab53cc0a
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Wed Jan 29 12:58:32 2020 -0500
+| 
+|     adjustments
+| 
+* commit d868af3e6db57a7cabe3d3a0b1d2bbe1ff987e24
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Jan 29 12:17:09 2020 -0500
+| 
+|     Remove names from lecture notes
+| 
+* commit a1ac1bc93bc9fdc8dfb5e850e01de1f62e2ec504
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Jan 29 12:15:07 2020 -0500
+| 
+|     Add my content
+| 
+* commit 09fafb8dcc538acb10d519cf51f03fd9a12e2a44
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Wed Jan 29 09:44:29 2020 -0500
+| 
+|     jon potpourri
+| 
+* commit 4d923c320afac2ffc180b60956411abb5be13d94
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Tue Jan 28 17:11:30 2020 -0500
+| 
+|     Add basic structure to potpourri
+| 
+* commit 19f761e0af7115fb17bb9563268c7f0a0908aaee
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 28 13:39:01 2020 -0500
+| 
+|     Add resources
+| 
+* commit d64d0d86e24953e11b5f30cc1063511f17983c51
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 28 13:32:36 2020 -0500
+| 
+|     Clarify that hash is deterministic
+| 
+* commit 5eb737fca9a571cefdb1bbf1a7a30241f18ac564
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 28 13:19:29 2020 -0500
+| 
+|     Add some more case studies
+| 
+* commit ca57678d503d50a8c3cb11747cf264e54b95aeb6
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 28 11:34:08 2020 -0500
+| 
+|     Add notes for security lecture
+| 
+* commit 81f0ba5e7a858702b983875134079de7dcbe5a29
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Tue Jan 28 10:48:25 2020 -0500
+| 
+|     Release lec7 and lec8 videos
+| 
+* commit 40f3193e5c96defec919d8180edf7ea763ce9faa
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Mon Jan 27 11:48:49 2020 -0500
+| 
+|     Sane print styles
+| 
+* commit 2ea7c7522072d9551410d10c21c846c498d22ffa
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Mon Jan 27 09:31:23 2020 -0500
+| 
+|     Release meta
+| 
+* commit 7ec08436e69a5b072d0f8e5aec81b8f567fe2687
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Mon Jan 27 09:11:37 2020 -0500
+| 
+|     Python 2/3, testing, and exercises
+| 
+* commit a438dacbb4c5f3d2ad4190f7006cd585ada8f699
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Sun Jan 26 21:35:17 2020 -0500
+| 
+|     Rename lecture notes
+| 
+* commit ce7fa626d56d52efc4ffd4721c13b0647ddcdcf9
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Sun Jan 26 17:01:55 2020 -0500
+| 
+|     First draft of meta
+| 
+* commit 230f88bb7bb1bfdecfaade20ff0e6923f9569c82
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Sun Jan 26 11:42:21 2020 -0500
+| 
+|     Minor edits to debug/profiling
+| 
+* commit bdbebf81c02f1cf16d13d1f80e66e914f211a25c
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Thu Jan 23 00:37:30 2020 -0500
+| 
+|     Toggle lecture visibility
+| 
+* commit 4d0ae52e8c7837ec6d584ea228a6ecb943d88e07
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Thu Jan 23 00:22:51 2020 -0500
+| 
+|     Remove hanging TODO
+| 
+* commit e9157bea462d57cbda6ea96054b324ee2a1d84a4
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Thu Jan 23 00:21:53 2020 -0500
+| 
+|     Finish debug-profile lecture notes
+| 
+* commit 3122df03ed6ed2930cad017bd00b90a198e46359
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Thu Jan 23 00:17:45 2020 -0500
+| 
+|     Some writing edits to debug-profile
+| 
+* commit aede0327c02050c13d302d531b1a341ca58b4044
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Wed Jan 22 23:11:33 2020 -0500
+| 
+|     Finish cProfile example
+| 
+* commit 70a546ceccad9ac2f1619e89746d4a9d2cadab8f
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Wed Jan 22 22:36:19 2020 -0500
+| 
+|     Finish exercises for debug and profiling
+| 
+* commit 0bb9a2f495d98024debe584151fddfd2648dcf8f
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Wed Jan 22 22:20:24 2020 -0500
+| 
+|     Fix insane date value scheme
+| 
+* commit 654202824c6925d5eb6dda8a0a4c63aa64bfc601
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Wed Jan 22 22:20:01 2020 -0500
+| 
+|     Fix missing EOF newline
+| 
+* commit 3e50d5476dd505ac4ebae071a8a07def19a4ee95
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Wed Jan 22 22:19:49 2020 -0500
+| 
+|     Add command-line lecture video
+| 
+* commit c3010183cdcb1dcf6daea8b8fd088be596704292
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Jan 22 12:27:28 2020 -0500
+| 
+|     Move
+| 
+* commit 66db6c4e49c2f5530fd36301fa89b7e7fa09742c
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Jan 22 12:12:09 2020 -0500
+| 
+|     Process Jon and Jose's feedback
+| 
+* commit 26a9d54742709b0cd220bbd63cd3983ba75947a7
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Jan 22 08:29:53 2020 -0500
+| 
+|     Fix typo
+| 
+* commit 8ffa46e0397547382b585221549becc37e777741
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Jan 22 08:27:24 2020 -0500
+| 
+|     Add text on immutable objects and mutable refs
+| 
+* commit 0a59ae7d4a4c0440da660e8fe6d98d56a0533f41
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Jan 22 08:20:47 2020 -0500
+| 
+|     Flip direction of arrows for consistency
+| 
+* commit 72dc42928ef2104c82650411e55e4fff18931aba
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 21 23:30:33 2020 -0500
+| 
+|     Fix typo
+| 
+* commit 6922089feff2594873381e731a0a677cf73d43eb
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 21 23:28:32 2020 -0500
+| 
+|     Reformat exercise
+| 
+* commit bfedd4d14093d2377e488459bdbff73492c71a30
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 21 23:25:21 2020 -0500
+| 
+|     Add notes for version control lecture
+|   
+*   commit eee6580cd87659afb2361138961fdb00f19fedc8
+|\  Merge: 26a8147 7b4d317
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Jan 21 17:30:00 2020 -0500
+| | 
+| |     Merge branch 'cnord/zsh-autosuggest'
+| | 
+| * commit 7b4d317b130c84ec2b68c8792a229a46e4671973
+|/  Author: Claire Nord <cnord@mit.edu>
+|   Date:   Tue Jan 21 17:26:57 2020 -0500
+|   
+|       Clarify zsh history search vs. autosuggestions in shell tools lecture
+| 
+* commit 26a81475a34780871c138aef3976a22816a35b71
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Tue Jan 21 17:03:22 2020 -0500
+| 
+|     Update notes for command line environment
+| 
+* commit d31a732ef5ec372ef5afe775abd1b4e93e791aa9
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Tue Jan 21 10:34:15 2020 -0500
+| 
+|     Add more tmux notes to command-line
+| 
+* commit b92de5a64210b4d3c22d7f380ce8d83757879c0d
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Mon Jan 20 23:24:58 2020 -0500
+| 
+|     Unready debugging and profiling notes
+| 
+* commit 6c6dfa9c4d177387f6f57956e7272076a102caa9
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Mon Jan 20 23:21:31 2020 -0500
+| 
+|     Minor fix in shell-tools notes
+| 
+* commit c6504d7043ad2fa7293a8c89fbabcf9778660125
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Mon Jan 20 23:20:08 2020 -0500
+| 
+|     First draft of debugging-profiling notes
+| 
+* commit 69024dfeec00b91e948893d929085157f51e38cb
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Mon Jan 20 23:15:19 2020 -0500
+| 
+|     Draft of command line environment notes
+| 
+* commit 56ecc3465b8961211ac8b8c69b1e79712ea73790
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Jan 20 10:07:13 2020 -0500
+| 
+|     Remove link to Hacker Tools from README
+|     
+|     This was here for when the current class year had no content. Now that
+|     we have a couple lectures, this link isn't necessary anymore.
+| 
+* commit 67660c233094a8f5a4d8172a2e4ac86f3e8f0ad1
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Fri Jan 17 18:37:44 2020 -0500
+| 
+|     Rewrite exercise possible ambiguity
+| 
+* commit 583a6782d97bff9b00047d2cce3c9c78fb1f0c6b
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Jan 17 16:17:31 2020 -0500
+| 
+|     Fix aspect ratio
+| 
+* commit 5a27b149e3691b2ac39e5e00ffd298484213619c
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Fri Jan 17 16:09:07 2020 -0500
+| 
+|     Link to YouTube playlist
+| 
+* commit f20b8b4334f792c4604073e8a9c5e36477aef7da
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Jan 17 16:04:43 2020 -0500
+| 
+|     Fix
+| 
+* commit 4aa7224298d14a743dfc4d28159e8b1a7fa594ee
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Jan 17 15:44:49 2020 -0500
+| 
+|     Add lecture videos
+| 
+* commit 31247f65f55511fe9cf8a192c2f3e8b436fd366a
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Jan 17 15:41:47 2020 -0500
+| 
+|     Fix broken links
+| 
+* commit 986a301914dc9b24541e0f9a7bf1a301947d4d49
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Jan 17 15:37:32 2020 -0500
+| 
+|     Fix broken links in 2019 site
+| 
+* commit a88b4eac326483e29bdac5ee0a39b180948ae7fc
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Jan 17 15:26:30 2020 -0500
+| 
+|     Redo lectures as a collection
+| 
+* commit cc2e5247438221be154b20d7cad1d1ca9b781edb
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Jan 17 14:30:09 2020 -0500
+| 
+|     Add redirect
+| 
+* commit 7d25aa862d66a9b294fe404ccc147adde28bddcf
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Jan 17 14:28:27 2020 -0500
+| 
+|     Organize site by year
+| 
+* commit 83b651eb4367ea1c7d595cfc006746f58746949e
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Thu Jan 16 11:13:41 2020 -0500
+| 
+|     exercise tidying
+| 
+* commit 2864497c4b68b7f06961a637d0023a09591fe5b6
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Thu Jan 16 09:43:11 2020 -0500
+| 
+|     Less Linux-specific exercises
+| 
+* commit f58fb71870ee4ccdbe20849ba89207a42dafe1c7
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Thu Jan 16 08:49:45 2020 -0500
+| 
+|     Fix accent color in dark mode
+| 
+* commit 3bb18f7412fe859d3b511604a2f71d422158cc79
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Thu Jan 16 08:47:09 2020 -0500
+| 
+|     Fix CSS for monofont links on dark mode
+| 
+* commit 0de61d53f47b259ea3945549178e9e30e5881709
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Wed Jan 15 18:02:00 2020 -0500
+| 
+|     Fix coming soon for MLK day
+| 
+* commit d4fa95563dd2daeb98fe0abc9c045015d378f926
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Wed Jan 15 14:34:39 2020 -0500
+| 
+|     Fix arrow key remaps in insert mode
+| 
+* commit faa88e7a77db8b71eda90825c4d270ae730687ad
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Jan 15 12:25:59 2020 -0500
+| 
+|     Process Jose's feedback
+| 
+* commit 5e2367b8f82c5837b828347f9369fe54d321b785
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Wed Jan 15 12:21:24 2020 -0500
+| 
+|     jjgo comments
+| 
+* commit 2e9f973f9e3ea31bdf1f436451d11f51232b530a
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Wed Jan 15 12:14:55 2020 -0500
+| 
+|     Exercises for data wrangling
+| 
+* commit 6d2214aec34a0a71aaab96c03ea00214df3f94a6
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Tue Jan 14 19:48:19 2020 -0500
+| 
+|     First draft of data wrangling lecture notes
+| 
+* commit d736e42c2a384b5cff19e1d2ed71d32b5e49d191
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 14 16:32:58 2020 -0500
+| 
+|     Add exercise
+| 
+* commit 8eccae848ce8ec5ae8a8088b73389cd84a11a40a
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 14 16:32:10 2020 -0500
+| 
+|     Add reference
+| 
+* commit 53a49a8a4e765f92a33e404d7286e59270b6e922
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 14 16:25:14 2020 -0500
+| 
+|     Improve exercises
+| 
+* commit 79195f8a39b7a0f74d2888cdc68fa4993455584e
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 14 15:33:20 2020 -0500
+| 
+|     Swap lectures
+| 
+* commit ab3148f2263dc023b8101c8427f2177c61936f84
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 14 15:15:29 2020 -0500
+| 
+|     Add note on macOS and sysfs
+| 
+* commit 36bc5f3284e236fc0fa1ce11f5a0c01cee86e5ca
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 14 10:48:22 2020 -0500
+| 
+|     Process Jon's feedback
+| 
+* commit 047cd49bd8057b42a0c9620fed0aedcd8682a154
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Tue Jan 14 11:28:04 2020 -0500
+| 
+|     Fix issues with shell tools notes
+| 
+* commit db9fb43bb87aeb3ca9cb307264a9c74b9e3f28cb
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 14 10:16:27 2020 -0500
+| 
+|     Make heading levels more consistent
+| 
+* commit 419629b167014d8070c295f0cf48edf0f6539d53
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 14 09:55:44 2020 -0500
+| 
+|     Fix exercise numbering
+|     
+|     The HTML-style comments break Markdown's automatic numbering. Replacing
+|     them with Liquid comments fixes it.
+|     
+|     Also, some extra indentation was required to make paragraphs be part of
+|     a list item rather than a separate paragraph at the top level.
+| 
+* commit fa8433545e6276b4fccad767bfe73f48415c15a9
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Tue Jan 14 09:51:19 2020 -0500
+| 
+|     Remove alias from shell tools notes
+| 
+* commit 5c9e87024b36eb8727149ac96c0abec71065ce5b
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 14 09:10:12 2020 -0500
+| 
+|     Add acks
+| 
+* commit 4f9b8ff6a12ef5d58be0a8884b40cc428d57b0dc
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Tue Jan 14 09:00:03 2020 -0500
+| 
+|     Add shell tools exercises
+| 
+* commit 0c71a5af12e7f055e49f9f7ccf788a65af023ad5
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 14 08:54:33 2020 -0500
+| 
+|     Add acks
+| 
+* commit 67d364ba2871ee2e6622ed862520cf4c06d797c8
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Jan 13 22:41:17 2020 -0500
+| 
+|     Link editors lecture notes
+| 
+* commit be75afb3391027e6a2026922377f55f8a5733968
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Jan 13 22:39:40 2020 -0500
+| 
+|     Add editors lecture for 2020
+| 
+* commit 075cfc16b00ed8713c7b2d6f0cd9c025f375ea48
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Jan 13 21:22:35 2020 -0500
+| 
+|     Fix CSS class naming conflict
+|     
+|     This broke syntax highlighting.
+| 
+* commit d5f2af235311d6c6cc19343e1ef71436f3bce078
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Jan 13 15:47:18 2020 -0500
+| 
+|     Add hint: man, not find
+| 
+* commit 40e1b70d6ad814751750fb130f3aac521e65b6c7
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Jan 13 15:46:15 2020 -0500
+| 
+|     Add hint on quoting
+| 
+* commit 9261bcfdbcbd0d21fbd00d8637bcd884a50260e4
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Mon Jan 13 15:39:26 2020 -0500
+| 
+|     Tweaks
+| 
+* commit b5c4e3db5065fe7bab2ae6d50269da0c4eaf2f8e
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Mon Jan 13 12:42:21 2020 -0500
+| 
+|     Where questions go
+| 
+* commit 27b27f8b37291fca1de9d8d2e6d894d6a90a0161
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Jan 13 08:49:55 2020 -0500
+| 
+|     Make it clear that videos will be added to notes
+| 
+* commit 7fe3dc189b6eafed833b22c9b31c48441e7b7292
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Mon Jan 13 08:50:02 2020 -0500
+| 
+|     Don't break lines in code segments
+| 
+* commit 80e5d8d8fea6a9b2e433e66ef8d4fa65d1bb6cdc
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Mon Jan 13 08:49:52 2020 -0500
+| 
+|     Minor language nit in 1st lecture
+| 
+* commit 092c9cf9ebc313e11b05a4ec1f88354150b4f0dd
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Sun Jan 12 20:24:19 2020 -0500
+| 
+|     Some sudo + sysfs bits for the advanced
+| 
+* commit 315d2a229284f7712ea244ff7c7d49ac90cfd78e
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Sun Jan 12 21:40:39 2020 +0100
+| 
+|     Add shell tools and scripting lecture notes
+| 
+* commit ebd69900754badf6426d203a648f62e37c0d8791
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Fri Jan 10 14:30:24 2020 -0500
+| 
+|     Add exercise for first lecture
+| 
+* commit 6092375a899e8865a2a90c927fa5f63eeb32ede7
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Fri Jan 10 14:19:37 2020 -0500
+| 
+|     Another unnecessarily long line
+| 
+* commit dfdc21a629a7d5aadc2439916684b12a9e2ae528
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Fri Jan 10 14:18:04 2020 -0500
+| 
+|     Shorten long line
+| 
+* commit 632aa383269296ec09dd9c4c9704a1f8e04a4ef4
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Fri Jan 10 14:17:06 2020 -0500
+| 
+|     Trailing prompt is distracting
+|     
+|     This leaves one of them in place where we explicitly call it out.
+| 
+* commit 9abc739519b514518f41c0d1644aaff220dd6a1a
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Fri Jan 10 14:16:14 2020 -0500
+| 
+|     Link to lecture notes from home page schedule
+| 
+* commit 246bd17c53361bf510ad70482576ea49d7851c57
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Fri Jan 10 14:09:31 2020 -0500
+| 
+|     Make padding on code blocks a little nicer
+| 
+* commit 755625adb883be976920d2d81da2c51a76ea1d63
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Fri Jan 10 14:08:15 2020 -0500
+| 
+|     Gemfile bump
+| 
+* commit 52332dfad0ef7b48e2941f9e81f6f13a4670ca13
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Fri Jan 10 14:08:08 2020 -0500
+| 
+|     First lecture notes (no exercise yet)
+| 
+* commit c882769e3bc1a5dad5bfbb758d519618a03fc6d8
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Thu Jan 9 09:45:49 2020 -0500
+| 
+|     Simplify homepage
+| 
+* commit 6573ae4479a78a2dce7521a67aea0f813dee6ae4
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Dec 27 13:50:05 2019 -0500
+| 
+|     Process Jose's feedback
+| 
+* commit 03a16659cf60142068f8bcdc0cbc8351598dcd82
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Dec 24 13:52:18 2019 -0500
+| 
+|     Update homepage and lectures list
+|     
+|     Homepage:
+|     
+|     - Remove "under construction" notice
+|     - Link to blog post from homepage
+|     - Unify lectures list
+|     - Make headings bigger
+|     
+|     Lectures list:
+|     
+|     - Show this year's topic list, currently without links
+|     - Add links to specific lectures from last year
+| 
+* commit bc0a779632f4a81a59e333166edb7efbb12ca9dd
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Dec 24 13:23:34 2019 -0500
+| 
+|     Reorder topics
+| 
+* commit 83d540f571c60f5018f8d9fd5d73f57be3f062a0
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Dec 24 13:21:46 2019 -0500
+| 
+|     Make another editing pass over about page
+| 
+* commit 6f6e8f00eacc91ea281b5ba36462b0f9eac27a41
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Dec 24 11:04:14 2019 -0500
+| 
+|     Fix validation errors
+|   
+*   commit ae4d208dcba5931079c43cba03b59a616c2a121e
+|\  Merge: 4ef377a 8bd6de7
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Mon Dec 23 07:02:35 2019 -0500
+| | 
+| |     Merge pull request #1 from missing-semester/dependabot/bundler/rubyzip-2.0.0
+| |     
+| |     Bump rubyzip from 1.2.2 to 2.0.0
+| | 
+| * commit 8bd6de7733e9f5e9a74be17cafdec708b5712fb6
+| | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+| | Date:   Mon Dec 2 02:29:17 2019 +0000
+| | 
+| |     Bump rubyzip from 1.2.2 to 2.0.0
+| |     
+| |     Bumps [rubyzip](https://github.com/rubyzip/rubyzip) from 1.2.2 to 2.0.0.
+| |     - [Release notes](https://github.com/rubyzip/rubyzip/releases)
+| |     - [Changelog](https://github.com/rubyzip/rubyzip/blob/master/Changelog.md)
+| |     - [Commits](https://github.com/rubyzip/rubyzip/compare/v1.2.2...v2.0.0)
+| |     
+| |     Signed-off-by: dependabot[bot] <support@github.com>
+| | 
+* | commit 4ef377a9cb127d52d5cf4671004b0a1e423a9cbc
+| | Author: Austin Green <austinzgreen@gmail.com>
+| | Date:   Sun Dec 22 10:50:11 2019 -0500
+| | 
+| |     nit: add space after parenthesis
+| | 
+* | commit 787ec0e5575ecf64bbe08bd5564101a7887abc46
+| | Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| | Date:   Fri Dec 20 21:44:00 2019 +0100
+| | 
+| |     Remove hacky js for asciinemas
+| | 
+* | commit 71591432d5fadc1a141be44bc11d2dedaa94fd95
+| | Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| | Date:   Fri Dec 20 21:42:34 2019 +0100
+| | 
+| |     Fix autoplay on mobile
+| | 
+* | commit 406a6970480a25a62a5fbbd1c58d9d249ec76342
+| | Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| | Date:   Fri Dec 20 21:36:03 2019 +0100
+| | 
+| |     Redo demos using videos and outside comments
+| | 
+* | commit 7a38011163b7e45c284488d4d37d1108370ea1b3
+| | Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| | Date:   Wed Dec 18 14:22:56 2019 +0100
+| | 
+| |     Minor fix for inline code blocks
+| | 
+* | commit 85b9c9e355b92ddd17608211570aae0fdec0e09c
+| | Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| | Date:   Wed Dec 18 14:20:24 2019 +0100
+| | 
+| |     Import fonts, increase font & add dark theme
+| | 
+* | commit 0d9004e25b43c313796870931e069bc1d86b6b0e
+| | Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| | Date:   Wed Dec 18 14:19:14 2019 +0100
+| | 
+| |     Include asciicasts in the about page
+| | 
+* | commit ff29732fd7c8d45b868558da9fcddfbcf1a16ad2
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Fri Dec 13 14:56:57 2019 -0500
+| | 
+| |     Add lecture time and location
+| | 
+* | commit fd582f25907849b7e84919771d860c97f2a927ff
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Dec 10 17:06:51 2019 -0500
+| | 
+| |     Add description and partial info for 2020
+| | 
+* | commit 5f6a4f63d9877c5e2854dc5525b05647c0ee6698
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Dec 10 16:55:03 2019 -0500
+| | 
+| |     Change color scheme
+| |     
+| |     Change color scheme to be different from hacker-tools.github.io.
+| | 
+* | commit 80f2e68d02f809eb77e56e544b4002ab19c89693
+|/  Author: Jon Gjengset <jon@thesquareplanet.com>
+|   Date:   Thu Dec 5 14:07:30 2019 -0500
+|   
+|       Add first draft of 'about the class' blog post
+| 
+* commit d53526ffd9c90048e086c99f9cc33885ca6e26bd
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sun Dec 1 21:27:19 2019 -0500
+| 
+|     Update dependencies
+| 
+* commit d4412ead0bd63f24cd836f0ac021243200f8c255
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sun Dec 1 21:26:19 2019 -0500
+| 
+|     Begin transition to new name and domain
+| 
+* commit b0d857fc10da1676001989479646be21494f783a
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jun 11 17:01:24 2019 -0400
+| 
+|     Update information related to rsync.net
+|     
+|     See https://github.com/hacker-tools/hacker-tools.github.io/issues/13.
+|   
+*   commit 490bdf5595b1cd70941108dcefac69b33dd5dcb3
+|\  Merge: e319bcb f2d26eb
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Sun Jun 2 10:58:15 2019 -0400
+| | 
+| |     Merge pull request #12 from 01programs/patch-2
+| |     
+| |     fix typo
+| | 
+| * commit f2d26ebe84b27687633fafa2399e7425dd7d8afc
+|/  Author: CodingRobot <13066734+01programs@users.noreply.github.com>
+|   Date:   Sun Jun 2 16:46:29 2019 +0200
+|   
+|       fix typo
+|       
+|       change
+|       [...] if you want to grep through many files and once, [...]
+|       to
+|       [...] if you want to grep through many files at once, [...]
+| 
+* commit e319bcbc31d69ab07bc625ec7325908687734773
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Wed May 29 15:49:11 2019 -0400
+| 
+|     Update notes on encrypted filesystems
+| 
+* commit 384630971bd5cb285827e7d8a85eb3377205fc1c
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Wed May 29 15:48:07 2019 -0400
+| 
+|     Add notes on append only backups
+|   
+*   commit 2755f49e22f3a7eddd177682a69f167aaefee076
+|\  Merge: b7057f0 f822732
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sat Feb 16 08:41:17 2019 -0500
+| | 
+| |     Merge branch 'chrisamurao/patch-1'
+| | 
+| * commit f822732a1a45d7751faf34be0b36a7725df10636
+|/  Author: Chris Amurao <freshpotatoes@gmail.com>
+|   Date:   Sat Feb 16 00:01:25 2019 -0800
+|   
+|       Fixed typo on tampermonkey
+|   
+*   commit b7057f009a7515c71afc9262663e7ba9df8f68ac
+|\  Merge: 3d5712f 7db3ffa
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Feb 12 12:16:22 2019 -0500
+| | 
+| |     Merge branch 'JohnPhamous/patch-1'
+| | 
+| * commit 7db3ffabad29733338399e0d261924dc2e4b899b
+|/  Author: John Pham <johnphammail@gmail.com>
+|   Date:   Tue Feb 12 09:12:53 2019 -0800
+|   
+|       Fixing typo to make example clear
+|   
+*   commit 3d5712f7a89f16de6753066c70ecf2fe2fcc3373
+|\  Merge: 7e90024 fee7039
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Sun Feb 10 11:28:52 2019 -0500
+| | 
+| |     Merge branch 'Offpics/patch-1'
+| | 
+| * commit fee7039f1ee6c968c915ef921c953ec5886a42c2
+|/  Author: Offpics <kornelux1@gmail.com>
+|   Date:   Sun Feb 10 12:12:01 2019 +0100
+|   
+|       Fix spelling
+|       
+|       The word "other" doesn't seem to fit in this context.
+| 
+* commit 7e9002404d81191b30a4e6c790e8da1e8871ee4b
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Sat Feb 9 13:19:57 2019 -0500
+| 
+|     New Shell and Scripting video
+| 
+* commit c3b56b7633b89ecd5cecad8fdfa0bb873dde10fb
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Feb 8 12:37:56 2019 -0500
+| 
+|     Restore note about videos/notes
+| 
+* commit e739bb27f15017c280c9a3e9310807e43de5b57a
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Feb 8 12:36:40 2019 -0500
+| 
+|     Do capitalization manually
+|     
+|     The liquid capitalize filter didn't work nicely with abbreviations like
+|     "OS".
+| 
+* commit 7f6f3a1eb6f232110fea302f9bb04b8fa3c5e7c0
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Feb 8 12:35:41 2019 -0500
+| 
+|     Add topic list to front page
+| 
+* commit a540bdf93406c3651244ac093303bfab73474491
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Feb 8 12:30:33 2019 -0500
+| 
+|     Make lectures page backed by data file
+| 
+* commit 7947e84e7c5718bd533f29983e608f974ca2f3ca
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Fri Feb 8 10:42:52 2019 -0500
+| 
+|     Slightly nicer formatting
+| 
+* commit 8bfd5eaf9598f35e6f1eff0deda0c14a7155f64d
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Fri Feb 8 10:40:41 2019 -0500
+| 
+|     Mention r/hackertools in the list too
+| 
+* commit 2682d5774b8ed1ce24472c7c4235dac60dcc81d4
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Fri Feb 8 10:39:45 2019 -0500
+| 
+|     Try to make front page easier to navigate
+| 
+* commit 68e9796e2d87d023f7b073239c2dba871002699e
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Wed Feb 6 10:25:12 2019 -0500
+| 
+|     Add ref to gmail backups
+|   
+*   commit 2bf180359c0ec0b362929bebe58427386456e8f1
+|\  Merge: ace7909 ad5c775
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Feb 5 18:58:52 2019 -0500
+| | 
+| |     Merge branch 'HerrKlemmy/patch-1'
+| | 
+| * commit ad5c77555f5d48a7d2f2d39e5c06d7e5996e45b3
+|/  Author: Klemens Kühle <HerrKlemmy@googlemail.com>
+|   Date:   Wed Feb 6 00:31:54 2019 +0100
+|   
+|       Update virtual-machines.md
+|       
+|       Just a Typo
+| 
+* commit ace7909249bab256f661b771b738d5b5a43e7f8c
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Tue Feb 5 17:08:55 2019 -0500
+| 
+|     Add Public APIs ref
+| 
+* commit 1949442c742bed8752e52df2346b67e3a10c8041
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Tue Feb 5 17:08:32 2019 -0500
+| 
+|     Mention backup e-mail
+| 
+* commit 9766d49c9414229b1f63840778ca253c064cb27a
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Tue Feb 5 16:16:26 2019 -0500
+| 
+|     Add r/hackertools links and remove Piazza links
+|   
+*   commit 1d2a5f23eb9db8b312a34e50954155e5dc9b6ec7
+|\  Merge: 8665574 97929e1
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Tue Feb 5 10:59:57 2019 -0500
+| | 
+| |     Merge pull request #4 from muellermarkus/patch-1
+| |     
+| |     Typo in command-line.md
+| | 
+| * commit 97929e18da324eba887c8c2f9461c6da87de0a12
+| | Author: Markus Müller <muellermarkus@users.noreply.github.com>
+| | Date:   Tue Feb 5 09:06:39 2019 +0100
+| | 
+| |     Typo in command-line.md
+| |   
+* |   commit 866557463ac12b1dc7b3f6f9dfa16f4ad5913610
+|\ \  Merge: 9535eef 33dfa3f
+| |/  Author: Jon Gjengset <jon@thesquareplanet.com>
+|/|   Date:   Tue Feb 5 10:59:45 2019 -0500
+| |   
+| |       Merge pull request #6 from immanuelfodor/master
+| |       
+| |       Replace the dummy file to the actual script + typo
+| | 
+| * commit 33dfa3f4169035f3b305c2601004c985aed3e4cd
+|/| Merge: 9535eef 48c994f
+| | Author: Immánuel! <immanuelfactor+github@gmail.com>
+| | Date:   Tue Feb 5 13:06:05 2019 +0100
+| | 
+| |     Merge pull request #1 from immanuelfodor/immanuelfodor-shell-md
+| |     
+| |     Replace the dummy file to the actual script + typo
+| | 
+| * commit 48c994fda6b0507600421e6f2910d72cf05f8f72
+|/  Author: Immánuel! <immanuelfactor+github@gmail.com>
+|   Date:   Tue Feb 5 13:01:47 2019 +0100
+|   
+|       Replace the dummy file to the actual script + typo
+|   
+*   commit 9535eef2e9019e554cf6749394c573a197c4d6dc
+|\  Merge: 2d6bde2 a793d06
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Mon Feb 4 19:24:11 2019 -0500
+| | 
+| |     Merge branch 'apengwin/patch-1'
+| | 
+| * commit a793d063ec26c3c8c42340ddd7fc28838fe5b080
+|/  Author: Allan Peng <megatron@berkeley.edu>
+|   Date:   Mon Feb 4 16:15:29 2019 -0800
+|   
+|       typo hehe
+|   
+*   commit 2d6bde22122a6c73b775d2b68f8bebab849738a5
+|\  Merge: 5c5d0cc a90a5dc
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Mon Feb 4 18:28:39 2019 -0500
+| | 
+| |     Merge branch 'gvre/master'
+| | 
+| * commit a90a5dc15dfaf33d0a5222d2410b6c890b7ba67c
+| | Author: Giannis Vrentzos <gvre@gvre.gr>
+| | Date:   Mon Feb 4 23:41:57 2019 +0200
+| | 
+| |     Remove quotes
+| | 
+* | commit 5c5d0cca4528ef64f7081ae05f826eb768ddec4b
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Mon Feb 4 16:36:39 2019 -0500
+| | 
+| |     Add link to edit current lecture page
+| | 
+* | commit 8853667b7e9a28468d9c45f19e731f65f4dd135c
+|\| Merge: 702087e 61b5cdc
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Mon Feb 4 16:33:08 2019 -0500
+| | 
+| |     Merge branch 'gvre/master'
+| | 
+| * commit 61b5cdca8d926dc06696ed235072f6dea8cbeb6e
+|/  Author: Giannis Vrentzos <gvre@gvre.gr>
+|   Date:   Mon Feb 4 23:28:58 2019 +0200
+|   
+|       Remove quotes from variable
+|       
+|       `[ "$foo" = "bar" ]` is fine when `$foo` is quoted, but not without them.
+| 
+* commit 702087e5042cc677ea29b0ce6f2f9c510ba0a203
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Feb 4 14:09:30 2019 -0500
+| 
+|     Remove subtitle
+| 
+* commit f8dd91156d6838fb08f24c84d685be78b6d1a9ae
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Feb 4 14:08:44 2019 -0500
+| 
+|     Make it more obvious that the class is over
+| 
+* commit 4c68b19c4c7b5b0becd6db0821b29dd88eae9d66
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Feb 4 14:06:26 2019 -0500
+| 
+|     Make it more obvious that there are videos
+| 
+* commit c4c08507c5f4ff3e733ef8aa0a25afffd2f29261
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Mon Feb 4 13:52:49 2019 -0500
+| 
+|     Link to shared locations
+| 
+* commit ddeeb791ebae69462674b7ea04bba62a7f92c661
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Mon Feb 4 09:58:27 2019 -0500
+| 
+|     Link to https://www.securemessagingapps.com/
+| 
+* commit 8839db2ff0231a10be4a2558b409d001bc07ecb4
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Mon Feb 4 09:57:39 2019 -0500
+| 
+|     Mention more password managers
+| 
+* commit a077119ca248fe70798983f32fc522283dec96fa
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sun Feb 3 11:04:39 2019 -0500
+| 
+|     Fix aspect ratios
+| 
+* commit b95ff19f34483b2015ab7382abe46c5a4044bd8a
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sun Feb 3 11:01:43 2019 -0500
+| 
+|     Add videos
+| 
+* commit 5fd54695e1999f7dee0bd7e2be6dacd702bd082e
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat Feb 2 16:59:07 2019 -0500
+| 
+|     Add favicons
+| 
+* commit 578294caea840b17797320db0990e99e7792d086
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat Feb 2 16:49:34 2019 -0500
+| 
+|     Update README
+| 
+* commit b1c484ab4d9f24f37c3c631cbc97184c83f325e6
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Thu Jan 31 15:11:50 2019 -0500
+| 
+|     Fix typo
+| 
+* commit aed281de780885b431869f12814b7eacd4cb5228
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Thu Jan 31 14:48:54 2019 -0500
+| 
+|     USB data blockers
+| 
+* commit 24004e8809ffea51b734c5e764e3f0471e8c90b8
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Thu Jan 31 14:46:44 2019 -0500
+| 
+|     Add security lecture notes
+| 
+* commit 3a6c7c8590af9701db131aea65007588e4c8ac47
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Thu Jan 31 12:25:30 2019 -0500
+| 
+|     Update schedule
+| 
+* commit 305ebd71d67691f47dfad302ab192ac2a386e925
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 29 15:14:46 2019 -0500
+| 
+|     Add note on Karabiner
+| 
+* commit 8777f5eeb8baa23b2b5f204c206903b906d40498
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 29 15:13:24 2019 -0500
+| 
+|     Add text on OS customization
+| 
+* commit 14004ac47ee87fd6708dc9b58aa87429a687dad0
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 29 15:00:12 2019 -0500
+| 
+|     Tweak text
+| 
+* commit 3f8ba46c2146895bae0162b91b466f20f605dd60
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 29 14:46:45 2019 -0500
+| 
+|     Add some text on package management
+| 
+* commit 2d4ba34fae9f5205f394c513ef72e708cc942341
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Tue Jan 29 00:32:55 2019 -0500
+| 
+|     Write web lecture notes
+| 
+* commit 8241968fa056e3414b3882799f1e3f1b50137f09
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Mon Jan 28 13:38:34 2019 -0500
+| 
+|     Write Remote Machine Lecture
+| 
+* commit bd2575a51fc75c04cf6b09f6c61a388a2c386758
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Mon Jan 28 11:20:31 2019 -0500
+| 
+|     Add todo for automation
+| 
+* commit c7641494a2756504551d63a4187731507649b569
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Mon Jan 28 11:20:11 2019 -0500
+| 
+|     Add more exercises shell
+| 
+* commit bd9670297a4fb9501f40085178d6fd3f6bf58754
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Fri Jan 25 18:28:12 2019 -0500
+| 
+|     Draft remote machine contents
+| 
+* commit 67639db7d414c3214319e74e1e3ed1eb9eeca659
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Fri Jan 25 18:27:30 2019 -0500
+| 
+|     Add more git exercises
+| 
+* commit 834305ccb836b8b7a2703e0fdf6a49de8e5dffc3
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Fri Jan 25 18:26:14 2019 -0500
+| 
+|     Add notes for future automation topics
+| 
+* commit f156626f7c7bbe9dbfeced130d0905aef4f1ab0b
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Fri Jan 25 18:22:12 2019 -0500
+| 
+|     Draft os-customization exercises and reference
+| 
+* commit 006d47698576484d288e4abeccfe6fd2a0b964fa
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Fri Jan 25 18:21:40 2019 -0500
+| 
+|     Draft security topics and exercises
+| 
+* commit ef946d4cc5f2fee38be1c244540bbd3fcb708918
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Fri Jan 25 18:21:18 2019 -0500
+| 
+|     Minor comments about editors
+| 
+* commit 4f42dfe71571adfa863e06e9344ab01a2edc79d5
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Fri Jan 25 18:20:51 2019 -0500
+| 
+|     Add minor comments to dotfiles
+| 
+* commit df4e4c3b666c3f246472bfda613cfc534db6957c
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Fri Jan 25 18:20:31 2019 -0500
+| 
+|     Add rename exercise
+| 
+* commit 55b2ffbfd072fdd64f1e325dd5afa02a7d6d9378
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Fri Jan 25 18:20:09 2019 -0500
+| 
+|     Make exercises use number bullets
+| 
+* commit 4c38b1facd25a56ecae510cebf895a9abc0ccc4f
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Thu Jan 24 17:15:01 2019 -0500
+| 
+|     Update schedule
+| 
+* commit 401acc7d74780fe064f79f282a2cc0b374ce307f
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Thu Jan 24 15:08:21 2019 -0500
+| 
+|     Add note
+| 
+* commit 0e9bc5f9ce133f02fc16c54c9d3f037616d6711b
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Thu Jan 24 14:18:05 2019 -0500
+| 
+|     Write notes for automation
+| 
+* commit a575a0d33de0d31d2d7ac6b5033d1c0e8ac047a2
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Thu Jan 24 14:17:52 2019 -0500
+| 
+|     Move remotes lecture
+| 
+* commit b96364cdc5fefc94c9f1b4714f53d8ab029e89f9
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Thu Jan 24 13:21:10 2019 -0500
+| 
+|     Rename automation lecture
+| 
+* commit f721b3494110ea7bf2c2a41803fa8b4a6008d193
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Thu Jan 24 12:43:07 2019 -0500
+| 
+|     Remove title from cli environment
+| 
+* commit c917e734c5d205336569bff097bce7e0f5857af5
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Thu Jan 24 11:47:24 2019 -0500
+| 
+|     Finish lecture content for machine introspection
+| 
+* commit d82b8fa42058820e76cc856f364d7e39c1204a9c
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Thu Jan 24 10:59:22 2019 -0500
+| 
+|     Add rsync/rclone
+|   
+*   commit fc68271933dbab42e9ab98fad44075bdb3d12d0b
+|\  Merge: 9f6f34f 36a93be
+| | Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| | Date:   Thu Jan 24 10:52:22 2019 -0500
+| | 
+| |     Merge branch 'master' of github.com:hacker-tools/hacker-tools.github.io
+| | 
+| * commit 36a93beac042e5d9780fbf5123625dbb7f503bf3
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Thu Jan 24 10:51:01 2019 -0500
+| | 
+| |     machine introspection outline
+| | 
+* | commit 9f6f34f1baa7b62f97d9f02b710a7c06d5fe0159
+| | Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| | Date:   Thu Jan 24 10:52:07 2019 -0500
+| | 
+| |     Fix typos in backups
+| | 
+* | commit 3a0e3da74fcf09a14deace7889d7604f696fc4a2
+| | Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| | Date:   Thu Jan 24 10:49:34 2019 -0500
+| | 
+| |     Add backup resources and exercises
+| | 
+* | commit 835ab723be67bc89a7bc6a382d45e45387190e03
+| | Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| | Date:   Thu Jan 24 10:47:29 2019 -0500
+| | 
+| |     Include extra bk considerations and web backup
+| | 
+* | commit dcbc343b2496f9fc74abe6feaebdb258c45b75bd
+|/  Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+|   Date:   Thu Jan 24 10:36:18 2019 -0500
+|   
+|       Write backup notes
+| 
+* commit f964fdc80a4043583a959ef2354c1706bc7a7fbe
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Jan 23 15:24:40 2019 -0500
+| 
+|     Add more content
+| 
+* commit 1bb41e647f47d16b9b8fa8b033eb94bd6d68aaf8
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Jan 23 15:06:53 2019 -0500
+| 
+|     Add more on debuggers
+| 
+* commit 639cdb179d24a4a54fb7b784ff2d86359141cc00
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Jan 23 14:53:44 2019 -0500
+| 
+|     Add GDB
+| 
+* commit 7b484dc8391c1093d3664d0589e32f1606dae9bc
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Jan 23 14:09:03 2019 -0500
+| 
+|     Add link to dotfiles repositories
+| 
+* commit df2fda3887fbf0b0ae9bce3d86d3bb8600f82e3b
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Jan 23 14:01:21 2019 -0500
+| 
+|     Add more content
+| 
+* commit 522e6ce2b6915b987e4b7497c74683730b1ba67a
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Tue Jan 22 15:20:54 2019 -0500
+| 
+|     Some version control exercises
+| 
+* commit 6884fe58335b4cce8a9a3f9206d397fc0744d5fd
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 22 14:48:39 2019 -0500
+| 
+|     Add mention of buffers
+| 
+* commit 888776c855dea9a5a376be717c0ade7ddca6fe58
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 22 14:45:46 2019 -0500
+| 
+|     Fix typos
+| 
+* commit cec800e2821a78de9b38a3287edcb16422178534
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 22 14:37:53 2019 -0500
+| 
+|     Update
+| 
+* commit 78a682025aa6999bca5fad3ad9d8dd9281081fb1
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 22 14:36:33 2019 -0500
+| 
+|     Add bash
+| 
+* commit 0dd4cfbb615f952615b664aa2e4670a7100f8ddf
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 22 14:36:01 2019 -0500
+| 
+|     Comment out section that has no content
+| 
+* commit d6d2d1a3063e53a0bf67e507fc9400b937e1f648
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Jan 22 14:34:48 2019 -0500
+| 
+|     Add lecture notes for editors
+| 
+* commit ab75d0f9da916000750dd972e0ef576a51b2c96e
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Tue Jan 22 10:30:39 2019 -0500
+| 
+|     Some more vcs content + start of exercise list
+| 
+* commit c1633e65da0557a520e0600f67bdb459bf5d7292
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Mon Jan 21 22:55:07 2019 -0500
+| 
+|     a start for vcs
+| 
+* commit 998622294a6c520db718867354bf98348ae3c7e2
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sun Jan 20 13:25:14 2019 -0500
+| 
+|     Add note
+| 
+* commit d69ee0280554d246a28de4f7144836dfd2ef24e8
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Jan 18 11:21:38 2019 -0500
+| 
+|     Add link to website source code
+| 
+* commit a3f15bb25e7cbe48a8de5355f9f778f703f9468b
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Jan 18 11:19:05 2019 -0500
+| 
+|     Fix highlight background bleeding outside border
+| 
+* commit 24daa3a8bd1625e8f351a62396c024de464bd69a
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Thu Jan 17 14:34:46 2019 -0500
+| 
+|     More data wrangling
+| 
+* commit 4e87c7b4bf29c831cf504fef284706dd19c276bd
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Thu Jan 17 12:59:50 2019 -0500
+| 
+|     Add terminal emulators/multiplex to command-line
+| 
+* commit be912d53171d9a679b70ded21521e3df50374da7
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Thu Jan 17 12:10:49 2019 -0500
+| 
+|     More data sets
+| 
+* commit 6b9f31218c4d99ac31b50be3cb81c803e68d1c5d
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Thu Jan 17 12:10:05 2019 -0500
+| 
+|     More data wrangling exercises
+| 
+* commit 99843fa025aa54042c8e25470dba8759f1cc32c9
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Thu Jan 17 12:00:57 2019 -0500
+| 
+|     Add some data wrangling exercises
+| 
+* commit 1d5995a5efc18d9995465053575b276978170ef5
+| Author: Jon Gjengset <jon@thesquareplanet.com>
+| Date:   Thu Jan 17 11:45:40 2019 -0500
+| 
+|     Lecture notes from data wrangling
+| 
+* commit 057121d7ec09b40bbb085f1128710543811ce5b9
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Wed Jan 16 23:04:54 2019 -0500
+| 
+|     Initial draft of command-line.md
+| 
+* commit 80d1a718b4296b7653b8cbedb46e64a75fdcacfb
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Jan 16 16:07:08 2019 -0500
+| 
+|     Add note
+| 
+* commit 2cc8de38fd55678ed7c9e178568faba0dbf7012a
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Jan 16 16:06:53 2019 -0500
+| 
+|     Add note from Jon
+| 
+* commit af6cbf7b823ef7206ee16b0c7e09389ad3fa9ec6
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Jan 16 16:06:33 2019 -0500
+| 
+|     Add link from Jose
+| 
+* commit c02b2b01243748951d7f9554e1b5cb7cddb1a896
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Wed Jan 16 00:46:54 2019 -0500
+| 
+|     Fix error exercise
+|   
+*   commit 5be665c126d61e9964e4a36ed748873eff8dff17
+|\  Merge: 1d8ba6f 1938e7e
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Jan 15 18:22:39 2019 -0500
+| | 
+| |     Merge remote-tracking branch 'origin/master'
+| |   
+| *   commit 1938e7e689295803062a89d15d5aefc538850977
+| |\  Merge: 9b360ba f5d5030
+| | | Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| | | Date:   Tue Jan 15 18:13:12 2019 -0500
+| | | 
+| | |     Merge branch 'master' of github.com:hacker-tools/hacker-tools.github.io
+| | | 
+| * | commit 9b360baab7e82743abc4720df19f0e50d07fb34b
+| | | Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| | | Date:   Tue Jan 15 18:12:49 2019 -0500
+| | | 
+| | |     Fix shell explanation
+| | | 
+* | | commit 1d8ba6ffc8ee40af89990fb64a40e5db1d9463f9
+| |/  Author: Anish Athalye <me@anishathalye.com>
+|/|   Date:   Tue Jan 15 18:19:58 2019 -0500
+| |   
+| |       Fix numbering
+| |       
+| |       The styling is still a little ugly, but this commit fixes the numbering.
+| | 
+* | commit f5d5030fed8a5144b9698cbc0403969feeca2425
+|/  Author: Anish Athalye <me@anishathalye.com>
+|   Date:   Tue Jan 15 18:11:41 2019 -0500
+|   
+|       More Piazza
+| 
+* commit 940a5b8a1ad8c254fb9dbaccab02731327d4b9fc
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Tue Jan 15 18:04:06 2019 -0500
+| 
+|     Fix some typos in shell
+| 
+* commit 56fbb1b2ba1881f54fa24eee3648c98a85770d3d
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Tue Jan 15 17:38:19 2019 -0500
+| 
+|     Add extra exercises for shell
+|   
+*   commit 2dcc98ae18561f6dcaeec956106952854f6ac4cf
+|\  Merge: 9cffdc1 5b39c0b
+| | Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| | Date:   Tue Jan 15 16:15:09 2019 -0500
+| | 
+| |     Merge branch 'master' of github.com:hacker-tools/hacker-tools.github.io
+| | 
+| * commit 5b39c0bc48ac2832e8c89a936309dbb8b4129f98
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Jan 15 15:12:44 2019 -0500
+| | 
+| |     Fix
+| | 
+| * commit 989dd74fa36924ab33ad40f8eb01d50132895f98
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Jan 15 15:05:20 2019 -0500
+| | 
+| |     Fix formatting
+| | 
+| * commit 4a81abfd7b17028873e53d4cc025ee65b65aefba
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Jan 15 15:02:51 2019 -0500
+| | 
+| |     Update dependencies
+| | 
+| * commit 0c9e85f05669e6213a8437595454b3c7b7da9c9b
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Tue Jan 15 15:02:42 2019 -0500
+| | 
+| |     vim doesn't like shell as the code type
+| | 
+* | commit 9cffdc1d01c4b3df2bc7ad45151dc4e376c9d8ca
+|/  Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+|   Date:   Tue Jan 15 16:14:54 2019 -0500
+|   
+|       Add some exercises for shell
+| 
+* commit b5a19d788a608dba8ff2f08efd28d23872d92198
+| Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| Date:   Tue Jan 15 15:01:47 2019 -0500
+| 
+|     Add extra stuff for VM & containers
+|   
+*   commit 1c82fd9c2ef22841c9c704d63211a4c2586b5647
+|\  Merge: a524147 cde2949
+| | Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+| | Date:   Tue Jan 15 13:26:18 2019 -0500
+| | 
+| |     Merge branch 'master' of github.com:hacker-tools/hacker-tools.github.io
+| | 
+| * commit cde29491d42c70eb7c4f7d255397b0320d82540f
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Jan 15 12:42:04 2019 -0500
+| | 
+| |     Update
+| | 
+| * commit c10e3ce877aaff37d947e10aa72df8a4fb17bb6c
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Tue Jan 15 12:29:23 2019 -0500
+| | 
+| |     Update
+| | 
+| * commit 3341f505a10aace608d56c07f125fc8fb85e8d54
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Tue Jan 15 10:05:50 2019 -0500
+| | 
+| |     Text on containers
+| | 
+| * commit dcb6bb5f66e20fe6b4d1d5621cd4839889eab1fb
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Mon Jan 14 18:31:01 2019 -0500
+| | 
+| |     List presenters
+| | 
+| * commit cfffca42f28d47c5d8ee7109f80fd85e1935cd64
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Mon Jan 14 18:18:07 2019 -0500
+| | 
+| |     Update
+| | 
+| * commit e4976092394c0b14dc8e146dadfd2631c98ab65d
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Mon Jan 14 10:16:53 2019 -0500
+| | 
+| |     Add Piazza link
+| | 
+| * commit 73bc95edd7f7c3d36fbe0c41fde7409a9f440ad6
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Mon Jan 14 10:07:12 2019 -0500
+| | 
+| |     Mention some special vars
+| | 
+| * commit 29a5ac6697e1749d318d1292863cafff478c3c2d
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Mon Jan 14 09:25:02 2019 -0500
+| | 
+| |     Add dotfiles content
+| | 
+| * commit bd94bf57ccbfd2ad01cc51538247cc113444e32a
+| | Author: Anish Athalye <me@anishathalye.com>
+| | Date:   Mon Jan 14 08:49:22 2019 -0500
+| | 
+| |     Fix parsing
+| | 
+| * commit e7dd5e190f9678bbff2d1986afdccc07228f943f
+| | Author: Jon Gjengset <jon@thesquareplanet.com>
+| | Date:   Sun Jan 13 18:03:30 2019 -0500
+| | 
+| |     First draft of shell lecture
+| | 
+* | commit a5241472b90e9d7ea718e2183a757db292e9fa13
+|/  Author: Jose Javier <josejavier.gonzalez.ortiz@gmail.com>
+|   Date:   Sun Jan 13 19:48:58 2019 +0100
+|   
+|       Add under-construction page
+| 
+* commit 86f74ecf10ddafb7dc865d08f4474105f0a3f27a
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat Jan 12 20:37:20 2019 -0500
+| 
+|     Add content for VMs
+| 
+* commit eb14a91be19ce700bb9a91e05f0d068ba42054a2
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat Jan 12 20:13:18 2019 -0500
+| 
+|     Add some intro content
+| 
+* commit db290a4b463fbb1fcdec91bd476c7563d3d5f659
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat Jan 12 11:48:21 2019 -0500
+| 
+|     Add nicer message
+| 
+* commit ccd5a838ab39ac043d1c1762d098be2c92aca5de
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Mon Jan 7 07:58:26 2019 -0500
+| 
+|     Acknowledge sponsors
+| 
+* commit ffa24fbe6e935da79eb3101bb28084579219a65d
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat Jan 5 20:24:32 2019 -0500
+| 
+|     Add schedule and empty pages for topics
+| 
+* commit b2e3a22155ff25b8c2858c23fd6dfebd02b96862
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat Jan 5 19:44:37 2019 -0500
+| 
+|     Add basic course info
+| 
+* commit 112ddbd8362e08dc2e8bc46b93011645bcb4c819
+  Author: Anish Athalye <me@anishathalye.com>
+  Date:   Fri Jan 4 22:00:31 2019 -0500
+  
+      Initial commit
+  
+* commit 32b551a4af493fd631dee5c0032f565d123b0587 (origin/assets)
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat May 16 16:06:49 2020 -0400
+| 
+|     Add variant arrow centered for a circular crop
+| 
+* commit 40ad85bdb31eb74ebfd41fd8f9928d77f6f06b3b
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Fri Dec 27 13:42:14 2019 -0500
+| 
+|     Process Jose's feedback
+| 
+* commit 66aee706bd8b025f77657d8b3e88b5d76d8cc593
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Wed Dec 25 09:06:00 2019 -0500
+| 
+|     Brighten fonts
+| 
+* commit 544d283b88332c3de484932c53470fe2b5f4eba0
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Dec 24 21:08:27 2019 -0500
+| 
+|     Add poster
+| 
+* commit 56feeae94dec3a04bf34b2e495120dd3a9486d41
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Tue Dec 24 18:56:39 2019 -0500
+| 
+|     Make banner for email
+| 
+* commit 1b1a7c04130dc33fbfcab63b755056203f4bc25d
+| Author: Anish Athalye <me@anishathalye.com>
+| Date:   Sat Feb 2 16:54:51 2019 -0500
+| 
+|     Add icon
+| 
+* commit a7909a27e647e4c57c5dc8c3ee6d6b57b2039b7d
+  Author: Anish Athalye <me@anishathalye.com>
+  Date:   Thu Jan 10 20:35:12 2019 -0500
+  
+      Initial commit
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500  1) # Setup
+d4412ead (Anish Athalye 2019-12-01 21:26:19 -0500  2) title: 'the missing semester of your cs education'
+d4412ead (Anish Athalye 2019-12-01 21:26:19 -0500  3) url: https://missing.csail.mit.edu
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500  4) 
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500  5) # Settings
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500  6) markdown: kramdown
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500  7) kramdown:
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500  8)   input: GFM
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500  9)   hard_wrap: false
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500 10) highlighter: rouge
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500 11) permalink: /:title/
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500 12) future: true
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500 13) # safe: true # breaks local rendering if enabled
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500 14) timezone: America/New_York
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500 15) analytics:
+d4412ead (Anish Athalye 2019-12-01 21:26:19 -0500 16)   tracking_id: UA-53167467-11
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500 17) 
+a88b4eac (Anish Athalye 2020-01-17 15:26:30 -0500 18) collections:
+a88b4eac (Anish Athalye 2020-01-17 15:26:30 -0500 19)   '2019':
+a88b4eac (Anish Athalye 2020-01-17 15:26:30 -0500 20)     output: true
+a88b4eac (Anish Athalye 2020-01-17 15:26:30 -0500 21)   '2020':
+a88b4eac (Anish Athalye 2020-01-17 15:26:30 -0500 22)     output: true
+a88b4eac (Anish Athalye 2020-01-17 15:26:30 -0500 23) 
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500 24) # Excludes
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500 25) exclude:
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500 26)   - README.md
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500 27)   - Gemfile
+^112ddbd (Anish Athalye 2019-01-04 22:00:31 -0500 28)   - Gemfile.lock
+fa309f93 (Anish Athalye 2020-05-16 11:13:27 -0400 29)   - vendor

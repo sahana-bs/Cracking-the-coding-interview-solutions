@@ -1,0 +1,13 @@
+
+Question2:
+
+$ git log --all --graph --decorate
+$ git log -p README.MD
+$ git blame _config.yml
+$ git show a88b4eac
+
+Question5:
+#creating alias
+
+$ git config --global alias.graph "log --all --graph --decorate --oneline"
+$ git graph

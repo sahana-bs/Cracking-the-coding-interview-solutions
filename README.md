@@ -13,3 +13,6 @@ SC: Space complexity
 AS: Auxiliary Space
 
 Python version: 3.9.6
+
+## Missing Semester
+So aptly named, this literally is the [missing semester](https://missing.csail.mit.edu/) of our CS education. Notes of some lectures and the exercises are in the folder "missing semester".
