@@ -1,6 +1,8 @@
 Both stacks and queues will be implemented in Python with List
 A stack uses LIFO (last-in first-out) ordering
 
+-An important thing to note in stacks is that it reverses the order of elements, queues preserve them!
+
 It uses the following operations:
 pop() : Remove the top item from the stack.
 push(item): Add an item to the top of the stack.
@@ -11,3 +13,7 @@ a stack can also be implemented using a linked list, if items were added and rem
 Recursive algorithms and stacks are closely related.
 why use stack?
 A stack does not offer constant-time access to the ith item. However, it does allow constant time adds and removes
+
+
+**Remember whenever you are implementing any new data structure with stacks or queue (which is done often), the __init__
+holds the structure (type, capacity, ..s) of the data structure
