@@ -1,0 +1,18 @@
+Must read: https://realpython.com/pointers-in-python/
+->In Python variables are just labels to objects in memory. In Python numeric objects are immutable.
+ Hence by a++ (if a=10) we are trying to increment value of 10 object to 11 which is not allowed.
+->Lots of commonly used primitive types are immutable. List, set and dict is mutable.
+->Python doesn’t even have variables. Python has names, not variables. It is a dynamic programming language.
+->Python is not a verbose language unlike Java(super verbose).This is false. Verbose means lots of symbols.
+Terse means fewer symbols.
+
+Kickass python one-liners:
+
+
+
+
+
+
+def __str__
+This method returns the string representation of the object. This method is called when print () or str () function is invoked on an object.
+This method must return the String object.

@@ -1,0 +1,9 @@
+TREES
+
+General:
+-A tree is a type of a graph.
+-It is a data structure composed of nodes. Each tree (ideally) has a root node. This root node has zero or more children
+-Each of this "child nodes" have zero or more child nodes.
+-There are no links from the child nodes to the parent nodes.
+-Binary search trees: This is basically a Binary tree with the nodes arranged in a specific order eg: all the left descendents
+less than the current node and all the right des. greater than it. Equality is ambiguous..
