@@ -18,6 +18,7 @@ https://www.technomancy.org/python/powerset-generator-python/#:~:text=The%20powe
 
 #recursive solution
 def power_set_rec(index,arr,subset):
+        print(index,subset)
         if index==len(arr):
             print(subset)
             return
@@ -27,3 +28,28 @@ def power_set_rec(index,arr,subset):
 
 
 print(power_set_rec(0,["a","b","c"],""))
+
+'''
+0
+1 a
+2 ab
+3 abc
+abc
+3 ab
+ab
+2 a
+3 ac
+ac
+3 a
+a
+1
+2 b
+3 bc
+bc
+3 b
+b
+2
+3 c
+c
+3
+'''
