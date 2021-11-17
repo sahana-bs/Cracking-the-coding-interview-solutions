@@ -7,3 +7,14 @@ General:
 -There are no links from the child nodes to the parent nodes.
 -Binary search trees: This is basically a Binary tree with the nodes arranged in a specific order eg: all the left descendents
 less than the current node and all the right des. greater than it. Equality is ambiguous..
+-Balanced trees: Ensure O( log n) times for insert and find, but it's not necessarily as
+balanced as it could be.
+-A complete binary tree is a binary tree in which every level of the tree is fully filled, except for perhaps the
+last level.
+-A full binary tree is a binary tree in which every node has either zero or two children. That is, no nodes have
+only one child.
+-A perfect binary tree is one that is both full and complete. All leaf nodes will be at the same level, and this
+level has the maximum number of nodes.
+
+Mapping a tree to array:
+If the root node is mapped to k, the left child is mapped to 2k+1, the right child to 2k+2
