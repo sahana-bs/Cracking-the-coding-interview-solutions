@@ -18,3 +18,11 @@ level has the maximum number of nodes.
 
 Mapping a tree to array:
 If the root node is mapped to k, the left child is mapped to 2k+1, the right child to 2k+2
+
+
+Traversal:
+dfs: branches
+when to use?
+cycle searches, path finding, topological sorting, to finding articulation points and strongly connected components
+
+bfs: neighbors
