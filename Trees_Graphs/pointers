@@ -26,3 +26,5 @@ when to use?
 cycle searches, path finding, topological sorting, to finding articulation points and strongly connected components
 
 bfs: neighbors
+when to use?
+shortest path, path btn two nodes
