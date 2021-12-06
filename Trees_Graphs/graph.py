@@ -1,6 +1,12 @@
 '''
 TODO
-Need to figure out how to use these classes to implement graoh
+Need to figure out how to use these classes to implement graph
+
+TC:
+depends on the vertices and edges - O (V + E) 
+
+AS:
+O(V)
 '''
 #class for vertex and edges of a graph
 #a class for the list of vertices
@@ -56,4 +62,4 @@ q=[]
 # dfs(list(gr.keys())[0],v)
 # 0 1 3 2 4 5
 bfs(list(gr.keys())[0],v,q)
-0 1 4 5 3 2 
+0 1 4 5 3 2
