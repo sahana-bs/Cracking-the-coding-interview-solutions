@@ -1,7 +1,7 @@
 '''
 As a noob programmer, I used to think that __init__ in python is equivalent to a constructor in other languages.
-But apparently, it's know. What! Ikr!
-So, I trying to understand it better.
+But apparently, it's not. What! Ikr!
+So, I tryed to understand it better.
 
 __init__ :as the name states, used to initialise an object. Remember, the first parameter in __init__(self,)
 is self which means that the object is already created.

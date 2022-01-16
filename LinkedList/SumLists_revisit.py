@@ -18,7 +18,7 @@ Reversed one:
 TC-O(N)
 SC-O(N)
 
-According to some hints in the book, I think he suggests to use recursion (the interview may ask you not to convert the list values to numbers).
+According to some hints in the book, I think she suggests to use recursion (the interview may ask you not to convert the list values to numbers).
 '''
 
 from LinkedList.LinkedList import LinkedList, Node
@@ -51,16 +51,21 @@ def list_digits(LinkedList):
 def add_numbers(l1,l2):
     return (int(list_digits(l1))+int(list_digits(l2)))
 
-# sll=LinkedList()
-# sll.appendToTail(Node(1))
-# sll.appendToTail(Node(9))
-# sll.appendToTail(Node(2))
-# sll.appendToTail(Node(2))
-#
-# sll1=LinkedList()
-# sll1.appendToTail(Node(1))
-# sll1.appendToTail(Node(7))
-# sll1.appendToTail(Node(7))
-# sll1.appendToTail(Node(2))
-#
-# print(add_numbers(sll,sll1))
+
+#def easier_way(l1,l2):
+
+
+
+sll=LinkedList()
+sll.appendToTail(Node(1))
+sll.appendToTail(Node(9))
+sll.appendToTail(Node(2))
+sll.appendToTail(Node(2))
+
+sll1=LinkedList()
+sll1.appendToTail(Node(1))
+sll1.appendToTail(Node(7))
+sll1.appendToTail(Node(7))
+sll1.appendToTail(Node(2))
+
+print(add_numbers(sll,sll1))
