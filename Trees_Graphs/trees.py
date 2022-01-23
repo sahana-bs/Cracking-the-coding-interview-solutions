@@ -19,7 +19,7 @@ class Tree():
 
 def in_order(tree):
     if tree==None:
-            return
+        return
     in_order(tree.left)
     print(tree.data, end=', ' )
     in_order(tree.right)
@@ -38,11 +38,12 @@ def post_order(tree):
     post_order(tree.right)
     print(tree.data, end=', ' )
 
-
-# In_tree=Tree(12, Tree(10, Tree(5), Tree(11)),Tree(20, Tree(18),Tree(21)))
-# in_order(In_tree)
-# pre_order(In_tree)
-# post_order(In_tree)
+'''
+In_tree=Tree(12, Tree(10, Tree(5), Tree(11)),Tree(20, Tree(18),Tree(21)))
+in_order(In_tree)
+pre_order(In_tree)
+post_order(In_tree)
 #5, 10, 11, 12, 18, 20, 21,
 #12, 10, 5, 11, 20, 18, 21,
 # 5, 11, 10, 18, 21, 20, 12,
+'''
