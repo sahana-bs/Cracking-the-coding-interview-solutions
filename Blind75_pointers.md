@@ -1,4 +1,4 @@
-
+###Arrays
 * two pointers
 ```
 general syntax
@@ -17,4 +17,9 @@ N Queens, [combination sum](https://leetcode.com/problems/combination-sum/)(subs
 * Duplicates
 ```
 hashtables, sorting
+```
+
+* Max subarray
+```
+Kadane's algorithm - iterative dynamic programming approach
 ```
