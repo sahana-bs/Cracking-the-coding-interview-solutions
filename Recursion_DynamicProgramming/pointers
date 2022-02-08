@@ -35,3 +35,18 @@ Dynamic programming is mostly just a matter of taking a recursive algorithm and 
 subproblems (that is, the repeated calls). You then cache those results for future recursive calls.
 
 *******DP can bring recursive problems with complexity O(2^N) to O(N) *************
+
+For a DP solution, basically, we need two things:
+
+The base case.
+This is where our dp start. Usually, this means how to calculate dp[0]. In our case, score[0] = nums[0] since nums[0] is both our start and end. We only have one choice.
+
+The so-called transition equation.
+That is to say, if we have already calculated score[0], score[1], ..., score[i-1], how can we calculate score[i]?
+
+```
+You know it is recursion if there are subproblems that are repetitive.
+```
+```
+YOu know it is a dynamic programming problem when there is optimal substructure..(beauty!)
+```

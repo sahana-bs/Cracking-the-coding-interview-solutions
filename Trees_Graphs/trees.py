@@ -3,9 +3,9 @@ credits: https://www.openbookproject.net/thinkcs/python/english2e/ch21.html
 
 Implementation of a tree and different types of traversal
 Inorder: In-order traversal means to "visit" (often, print) the left branch, then the current node, and finally, the right
-branch
-Preorder:Root is visited first, then left and right. Best remembered for prefix
-Postorder: Root is visited last, postfix
+branch. (Remember 3+4)
+Preorder:Root is visited first, then left and right. Best remembered for prefix, (remember +34)
+Postorder: Root is visited last, postfix, (remember 34+)
 '''
 
 class Tree():

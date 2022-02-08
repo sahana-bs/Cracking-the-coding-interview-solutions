@@ -31,20 +31,18 @@ def constructBST(keys):
         root = insert_node(root, key)
     return root
 
-def delete_node(root, key):
-    parent = None
-    curr = root
-    #search for the key
-    while curr and curr.data!=key:
-        #store the parent of the key
-        parent = curr
-        if cur
+# def delete_node(root, key):
+#     parent = None
+#     curr = root
+#     #search for the key
+#     while curr and curr.data!=key:
+#         #store the parent of the key
+#         parent = curr
+#         if cur
 
 
-
-
-
-
+#         TODO
+#
 
 
 

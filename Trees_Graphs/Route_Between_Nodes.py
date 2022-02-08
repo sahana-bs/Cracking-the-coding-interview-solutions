@@ -66,4 +66,29 @@ v=set()
 q = []
 node1 = '0'
 node2 = '2'
-bfs_routefind(node1, node2, v, q, gr)
+# bfs_routefind(node1, node2, v, q, gr)
+
+
+
+#code if the graph is represented as an adjacency matrix
+import sys
+gr=[[0,1,0,0],[0,0,0,1],[0,1,0,1],[0,0,0,0]]
+visited=set()
+def dfs(node1, node2, visited, gr):
+    tot_nodes=len(gr[0])
+
+    if node1==node2:
+        print("Route exists")
+        sys.exit()
+    if len(visited)==tot_nodes:
+        print('no route exists between the nodes')
+        sys.exit()
+    if node1==None:
+            return
+    visited.add(node1)
+    for e in range(tot_nodes):
+        if gr[node1][e]==1:   #an edge exists betweeen the nodes
+            if e not in visited:
+                dfs(e, node2, visited, gr)
+
+print(dfs(1,3,visited,gr))
