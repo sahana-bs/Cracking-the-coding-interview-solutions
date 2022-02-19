@@ -36,3 +36,9 @@ while(start<=end):
   */
 return arr[mid]
 ```
+
+Useful python libraries:
+[collections](https://docs.python.org/3/library/collections.html): useful subclasses include Counter, defaultdict
+[bisect](https://docs.python.org/3/library/bisect.html): the bisect module provides super handy functions that does binary search for us.
+
+->To make sure that the results of this method are memoized. In Python, we can use lru_cache

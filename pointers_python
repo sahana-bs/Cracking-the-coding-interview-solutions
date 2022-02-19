@@ -9,8 +9,8 @@ Terse means fewer symbols.
 Kickass python one-liners:
 https://allwin-raju-12.medium.com/50-python-one-liners-everyone-should-know-182ea7c8de9d
 
-
-
+-to assign a slice of list to a number??
+-
 
 
 def __str__
