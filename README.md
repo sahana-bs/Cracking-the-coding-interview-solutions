@@ -18,4 +18,5 @@ Python version: 3.9.6
 So aptly named, this literally is the [missing semester](https://missing.csail.mit.edu/) of our CS education. Notes of some lectures and the exercises are in the folder "missing semester".
 
 Other materials:
-[Blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
+* [Blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
+* [Mode](https://mode.com/sql-tutorial/) - best resource for SQL
