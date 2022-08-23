@@ -20,3 +20,4 @@ So aptly named, this literally is the [missing semester](https://missing.csail.m
 Other materials:
 * [Blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
 * [Mode](https://mode.com/sql-tutorial/) - best resource for SQL
+* [Hands on Data Science practise](https://data-puzzles.com/) 
